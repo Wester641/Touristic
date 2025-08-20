@@ -23,29 +23,12 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item has-children">
-            <a href="#">
+            <a href="!#">
               Home
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
             </a>
-            <ul className="sub-menu">
-              <li>
-                <Link href="/">Home 01</Link>
-              </li>
-              <li>
-                <Link href="index-2">Home 02</Link>
-              </li>
-              <li>
-                <Link href="index-3">Home 03</Link>
-              </li>
-              <li>
-                <Link href="index-4">Home 04</Link>
-              </li>
-            </ul>
           </li>
           <li className="menu-item has-children">
-            <a href="#">
+            <a href="!#">
               Tours
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
@@ -61,7 +44,7 @@ const DeskTopMenu = () => {
             </ul>
           </li>
           <li className="menu-item has-children">
-            <a href="#">
+            <a href="!#">
               Destination
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
@@ -77,7 +60,7 @@ const DeskTopMenu = () => {
             </ul>
           </li>
           <li className="menu-item has-children">
-            <a href="#">
+            <a href="!#">
               Blog
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
@@ -93,7 +76,7 @@ const DeskTopMenu = () => {
             </ul>
           </li>
           <li className="menu-item has-children">
-            <a href="#">
+            <a href="!#">
               Pages
               <span className="dd-trigger">
                 <i className="far fa-angle-down" />
@@ -139,14 +122,14 @@ const DeskTopMenu = () => {
 const MobileMenu = () => {
   const [activeMenu, setActiveMenu] = useState("");
   const activeMenuSet = (value) =>
-      setActiveMenu(activeMenu === value ? "" : value),
+    setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
   return (
     <nav className="main-menu d-block d-xl-none">
       <ul>
         <li className="menu-item has-children">
-          <a href="#">
+          <a href="!#">
             Home
             <span className="dd-trigger" onClick={() => activeMenuSet("home")}>
               <i className="far fa-angle-down" />
@@ -168,7 +151,7 @@ const MobileMenu = () => {
           </ul>
         </li>
         <li className="menu-item has-children">
-          <a href="#">
+          <a href="!#">
             Tours
             <span className="dd-trigger" onClick={() => activeMenuSet("Tours")}>
               <i className="far fa-angle-down" />
@@ -184,7 +167,7 @@ const MobileMenu = () => {
           </ul>
         </li>
         <li className="menu-item has-children">
-          <a href="#">
+          <a href="!#">
             Destination
             <span
               className="dd-trigger"
@@ -203,7 +186,7 @@ const MobileMenu = () => {
           </ul>
         </li>
         <li className="menu-item has-children">
-          <a href="#">
+          <a href="!#">
             Blog
             <span className="dd-trigger" onClick={() => activeMenuSet("Blog")}>
               <i className="far fa-angle-down" />
@@ -219,7 +202,7 @@ const MobileMenu = () => {
           </ul>
         </li>
         <li className="menu-item has-children">
-          <a href="#">
+          <a href="!#">
             Pages
             <span className="dd-trigger" onClick={() => activeMenuSet("Pages")}>
               <i className="far fa-angle-down" />

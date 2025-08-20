@@ -1,7 +1,8 @@
 import GallerySection from "@/src/components/GallerySection";
 import Layout from "@/src/layout/Layout";
 import {
-  home1Slider,
+
+  home2Slider,
   sliderActive3Item,
   sliderActive4Item,
   testimonialSliderOne,
@@ -19,46 +20,38 @@ const Index = () => {
       {/*====== Start Hero Section ======*/}
       <section className="hero-section">
         {/*=== Hero Wrapper ===*/}
-        <div className="hero-wrapper black-bg">
+        <div className="hero-wrapper-two">
           {/*=== Hero Slider ===*/}
-          <Slider {...home1Slider} className="hero-slider-one">
+          <Slider {...home2Slider} className="hero-slider-two">
             {/*=== Single Slider ===*/}
             <div className="single-slider">
+              <div
+                className="image-layer bg_cover"
+                style={{
+                  backgroundImage: "url(assets/images/hero/hero-two_img-1.jpg)",
+                }}
+              />
               <div className="container-fluid">
-                <div className="row align-items-center">
-                  <div className="col-xl-6">
+                <div className="row justify-content-center">
+                  <div className="col-xl-9">
                     {/*=== Hero Content ===*/}
-                    <div className="hero-content text-white">
+                    <div className="hero-content text-white text-center">
+                      <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Travel &amp; Adventure Camping
+                        Tour Travel &amp; Adventure Camping
                       </h1>
-                      <div className="text-button d-flex align-items-center">
-                        <p data-animation="fadeInLeft" data-delay=".5s">
-                          Nunc et dui nullam aliquam eget velit. Consectetur
-                          nulla convallis viverra quisque eleifend
-                        </p>
-                        <div
-                          className="hero-button"
-                          data-animation="fadeInRight"
-                          data-delay=".6s"
-                        >
-                          <Link legacyBehavior href="/about">
-                            <a className="main-btn primary-btn">
-                              Explore More
-                              <i className="fas fa-paper-plane" />
-                            </a>
-                          </Link>
-                        </div>
+                      <div
+                        className="hero-button"
+                        data-animation="fadeInRight"
+                        data-delay=".6s"
+                      >
+                        <Link legacyBehavior href="/about">
+                          <a className="main-btn primary-btn">
+                            Explore More
+                            <i className="fas fa-paper-plane" />
+                          </a>
+                        </Link>
                       </div>
-                    </div>
-                  </div>
-                  <div className="col-xl-6">
-                    {/*=== Hero Image ===*/}
-                    <div className="hero-image" data-animation="fadeInRight">
-                      <img
-                        src="assets/images/hero/hero-one_img-1.jpg"
-                        alt="Hero Image"
-                      />
                     </div>
                   </div>
                 </div>
@@ -66,41 +59,101 @@ const Index = () => {
             </div>
             {/*=== Single Slider ===*/}
             <div className="single-slider">
+              <div
+                className="image-layer bg_cover"
+                style={{
+                  backgroundImage: "url(assets/images/hero/hero-two_img-2.jpg)",
+                }}
+              />
               <div className="container-fluid">
-                <div className="row align-items-center">
-                  <div className="col-xl-6">
+                <div className="row justify-content-center">
+                  <div className="col-xl-9">
                     {/*=== Hero Content ===*/}
-                    <div className="hero-content text-white">
+                    <div className="hero-content text-white text-center">
+                      <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Travel &amp; Adventure Tour
+                        Tour Travel &amp; Adventure Camping
                       </h1>
-                      <div className="text-button d-flex align-items-center">
-                        <p data-animation="fadeInLeft" data-delay=".5s">
-                          Nunc et dui nullam aliquam eget velit. Consectetur
-                          nulla convallis viverra quisque eleifend
-                        </p>
-                        <div
-                          className="hero-button"
-                          data-animation="fadeInRight"
-                          data-delay=".6s"
-                        >
-                          <Link legacyBehavior href="/about">
-                            <a className="main-btn primary-btn">
-                              Explore More
-                              <i className="fas fa-paper-plane" />
-                            </a>
-                          </Link>
-                        </div>
+                      <div
+                        className="hero-button"
+                        data-animation="fadeInRight"
+                        data-delay=".6s"
+                      >
+                        <Link legacyBehavior href="/about">
+                          <a className="main-btn primary-btn">
+                            Explore More
+                            <i className="fas fa-paper-plane" />
+                          </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-6">
-                    {/*=== Hero Image ===*/}
-                    <div className="hero-image" data-animation="fadeInRight">
-                      <img
-                        src="assets/images/hero/hero-one_img-2.jpg"
-                        alt="Hero Image"
-                      />
+                </div>
+              </div>
+            </div>
+            {/*=== Single Slider ===*/}
+            <div className="single-slider">
+              <div
+                className="image-layer bg_cover"
+                style={{
+                  backgroundImage: "url(assets/images/hero/hero-two_img-3.jpg)",
+                }}
+              />
+              <div className="container-fluid">
+                <div className="row justify-content-center">
+                  <div className="col-xl-9">
+                    {/*=== Hero Content ===*/}
+                    <div className="hero-content text-white text-center">
+                      <span className="ribbon">Tour &amp; Travels</span>
+                      <h1 data-animation="fadeInDown" data-delay=".4s">
+                        Tour Travel &amp; Adventure Camping
+                      </h1>
+                      <div
+                        className="hero-button"
+                        data-animation="fadeInRight"
+                        data-delay=".6s"
+                      >
+                        <Link legacyBehavior href="/about">
+                          <a className="main-btn primary-btn">
+                            Explore More
+                            <i className="fas fa-paper-plane" />
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*=== Single Slider ===*/}
+            <div className="single-slider">
+              <div
+                className="image-layer bg_cover"
+                style={{
+                  backgroundImage: "url(assets/images/hero/hero-two_img-4.jpg)",
+                }}
+              />
+              <div className="container-fluid">
+                <div className="row justify-content-center">
+                  <div className="col-xl-9">
+                    {/*=== Hero Content ===*/}
+                    <div className="hero-content text-white text-center">
+                      <span className="ribbon">Tour &amp; Travels</span>
+                      <h1 data-animation="fadeInDown" data-delay=".4s">
+                        Tour Travel &amp; Adventure Camping
+                      </h1>
+                      <div
+                        className="hero-button"
+                        data-animation="fadeInRight"
+                        data-delay=".6s"
+                      >
+                        <Link legacyBehavior href="/about">
+                          <a className="main-btn primary-btn">
+                            Explore More
+                            <i className="fas fa-paper-plane" />
+                          </a>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -284,99 +337,7 @@ const Index = () => {
       </section>
       {/*====== End Hero Section ======*/}
       {/*====== Start Booking Section ======*/}
-      <section className="booking-section pt-60 pb-50">
-        <div className="container">
-          <div className="row align-items-xl-center">
-            <div className="col-lg-6">
-              {/*=== Booking Content Box ===*/}
-              <div className="booking-content-box mb-50 wow fadeInLeft">
-                <div className="section-title mb-50">
-                  <span className="sub-title">Availability</span>
-                  <h2>Booking Your Best Tour Camping Availability</h2>
-                </div>
-                <form className="booking-form">
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="form_group">
-                        <input
-                          type="date"
-                          className="form_control datepicker"
-                          placeholder="Check In"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form_group">
-                        <input
-                          type="date"
-                          className="form_control datepicker"
-                          placeholder="Check Out"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form_group">
-                        <label>
-                          <i className="far fa-user-alt" />
-                        </label>
-                        <input
-                          type="text"
-                          className="form_control"
-                          placeholder="Guest"
-                          name="text"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form_group">
-                        <select className="wide">
-                          <option data-display="Accommodations">
-                            Accommodations
-                          </option>
-                          <option value={1}>Classic Tent</option>
-                          <option value={1}>Forest Camping</option>
-                          <option value={1}>Small Trailer</option>
-                          <option value={1}>Tree House Tent</option>
-                          <option value={1}>Tent Camping</option>
-                          <option value={1}>Couple Tent</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <textarea
-                        name="comments"
-                        placeholder="Comments"
-                        className="form_control"
-                        cols={8}
-                        rows={3}
-                        defaultValue={""}
-                      />
-                    </div>
-                    <div className="col-md-12">
-                      <div className="form_group">
-                        <button className="main-btn primary-btn">
-                          Check availability
-                          <i className="fas fa-paper-plane" />
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              {/*=== Booking Image Box ===*/}
-              <div className="booking-image-box mb-50 ml-lg-45 wow fadeInRight">
-                <img
-                  src="assets/images/contact/contact-1.jpg"
-                  className="radius-60"
-                  alt="Contact Image"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       {/*====== End Hero Section ======*/}
       {/*====== Start Activity Section ======*/}
       <section className="activity-section">

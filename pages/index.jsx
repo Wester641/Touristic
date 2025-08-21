@@ -1,7 +1,6 @@
 import GallerySection from "@/src/components/GallerySection";
 import Layout from "@/src/layout/Layout";
 import {
-
   home2Slider,
   sliderActive3Item,
   sliderActive4Item,
@@ -14,6 +13,140 @@ import Slider from "react-slick";
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
+
+const services = [
+  {
+    title: "RV Caravan Trailer",
+    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    image: "assets/images/place/place-1.jpg",
+    link: "/about",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Lenin Peak Base Camp Trek",
+    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    image: "assets/images/place/place-2.jpg",
+    link: "/about",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Lenin Peak Base Camp Trek",
+    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    image: "assets/images/place/place-3.jpg",
+    link: "/about",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Lenin Peak Base Camp Trek",
+    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    image: "assets/images/place/place-4.jpg",
+    link: "/about",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Lenin Peak Base Camp Trek",
+    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    image: "assets/images/place/place-4.jpg",
+    link: "/about",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Lenin Peak Base Camp Trek",
+    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    image: "assets/images/place/place-4.jpg",
+    link: "/about",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Lenin Peak Base Camp Trek",
+    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    image: "assets/images/place/place-4.jpg",
+    link: "/about",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Lenin Peak Base Camp Trek",
+    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    image: "assets/images/place/place-4.jpg",
+    link: "/about",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+];
+
+const ServiceTypes = [
+  {
+    title: "Man and Woman Walks on Dock",
+    description: "Maldives",
+    location: "Maldives",
+    price: "93.65",
+    image: "assets/images/place/place-4.jpg",
+    link: "/about",
+    days: "5",
+  },
+
+  {
+    title: "Man and Woman Walks on Dock",
+    description: "Maldives",
+    location: "Maldives",
+    price: "93.65",
+    image: "assets/images/place/place-3.jpg",
+    link: "/about",
+    days: "5",
+  },
+  {
+    title: "Man and Woman Walks on Dock",
+    description: "Maldives",
+    location: "Maldives",
+    price: "93.65",
+    image: "assets/images/place/place-4.jpg",
+    link: "/about",
+    days: "5",
+  },
+  {
+    title: "Man and Woman Walks on Dock",
+    description: "Maldives",
+    location: "Maldives",
+    price: "93.65",
+    image: "assets/images/place/place-2.jpg",
+    link: "/about",
+    days: "5",
+  },
+  {
+    title: "Man and Woman Walks on Dock",
+    description: "Maldives",
+    location: "Maldives",
+    price: "93.65",
+    image: "assets/images/place/place-3.jpg",
+    link: "/about",
+    days: "5",
+  },
+  {
+    title: "Man and Woman Walks on Dock",
+    description: "Maldives",
+    location: "Maldives",
+    price: "93.65",
+    image: "assets/images/place/place-4.jpg",
+    link: "/about",
+    days: "5",
+  },
+];
+
 const Index = () => {
   return (
     <Layout header={1} noFooter>
@@ -28,7 +161,7 @@ const Index = () => {
               <div
                 className="image-layer bg_cover"
                 style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-1.jpg)",
+                  backgroundImage: "url(assets/images/hero/hero-two_img-4.jpg)",
                 }}
               />
               <div className="container-fluid">
@@ -38,7 +171,7 @@ const Index = () => {
                     <div className="hero-content text-white text-center">
                       <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Tour Travel &amp; Adventure Camping
+                        Explore Kyrgyzstan and Central Asia
                       </h1>
                       <div
                         className="hero-button"
@@ -47,7 +180,7 @@ const Index = () => {
                       >
                         <Link legacyBehavior href="/about">
                           <a className="main-btn primary-btn">
-                            Explore More
+                            More
                             <i className="fas fa-paper-plane" />
                           </a>
                         </Link>
@@ -62,7 +195,7 @@ const Index = () => {
               <div
                 className="image-layer bg_cover"
                 style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-2.jpg)",
+                  backgroundImage: "url(assets/images/hero/hero-two_img-4.jpg)",
                 }}
               />
               <div className="container-fluid">
@@ -70,9 +203,9 @@ const Index = () => {
                   <div className="col-xl-9">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white text-center">
-                      <span className="ribbon">Tour &amp; Travels</span>
+                      <span className="ribbon">Find Your Adventure</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Tour Travel &amp; Adventure Camping
+                        Crafting Trips for Every Travel Style
                       </h1>
                       <div
                         className="hero-button"
@@ -81,7 +214,7 @@ const Index = () => {
                       >
                         <Link legacyBehavior href="/about">
                           <a className="main-btn primary-btn">
-                            Explore More
+                            More
                             <i className="fas fa-paper-plane" />
                           </a>
                         </Link>
@@ -96,7 +229,7 @@ const Index = () => {
               <div
                 className="image-layer bg_cover"
                 style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-3.jpg)",
+                  backgroundImage: "url(assets/images/hero/hero-two_img-4.jpg)",
                 }}
               />
               <div className="container-fluid">
@@ -106,7 +239,7 @@ const Index = () => {
                     <div className="hero-content text-white text-center">
                       <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Tour Travel &amp; Adventure Camping
+                        Authentic Travel Experiences
                       </h1>
                       <div
                         className="hero-button"
@@ -140,7 +273,7 @@ const Index = () => {
                     <div className="hero-content text-white text-center">
                       <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        Tour Travel &amp; Adventure Camping
+                        For Every Adventurous Spirit
                       </h1>
                       <div
                         className="hero-button"
@@ -164,177 +297,129 @@ const Index = () => {
       </section>
       {/*====== End Hero Section ======*/}
       {/*====== Start About Section ======*/}
-      <section className="about-section pt-100">
-        <div className="container-fluid">
+      {/*====== Start Team Section ======*/}
+      <section className="team-section pt-100 pb-70">
+        <div className="container">
           <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-9">
-              {/*=== About Content Box ===*/}
-              <div className="about-content-box text-center mb-55 wow fadeInDown">
-                <div className="section-title mb-30">
-                  <span className="sub-title">About Company</span>
-                  <h2>We Are Most Funning Company About Travel &amp; Tours</h2>
-                </div>
-                <p>
-                  Sit amet consectetur. Velit integer eu tincidunt scelerisque.
-                  Sodales volutpat neque fermentum malesuada scelerisque massa
-                  lacus. Ultrices eget leo cras odio blandit rhoncus eu. At
-                  feugiat condimentum massa integer iaculis sit sit. Sagittis
-                  vitae quis sed vitae congue
-                </p>
+            <div className="col-xl-7">
+              {/*====== Section Title ======*/}
+              <div className="section-title text-center mb-50 wow fadeInDown">
+                <span className="sub-title">Find Your Trip</span>
+                <h2>Popular Kyrgyzstan Trekking and Hiking Tours</h2>
               </div>
             </div>
           </div>
+          {/* <div className="row"></div> */}
+        </div>
+      </section>
+      {/*====== End Team Section ======*/}
+      {/*====== Start Activity Section ======*/}
+      <section className="activity-section pb-60">
+        <div className="container-fluid">
+          {/*=== Slider Active Item ===*/}
           <Slider
-            {...sliderActive4Item}
-            className="slider-active-4-item wow fadeInUp"
+            {...sliderActive3Item}
+            className="slider-active-3-item wow fadeInUp"
           >
-            {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
-              <div className="img-holder">
-                <img
-                  src="assets/images/features/feat-1.jpg"
-                  alt="Features Image"
-                />
+            {/*====== Activity Item ======*/}
+            {services.map((service) => (
+              <div className="single-activity-item mb-40">
+                <div className="img-holder">
+                  <img src={service.image} alt="Image" />
+                </div>
                 <div className="content">
-                  <div className="text">
-                    <h4 className="title">Tent Camping Services</h4>
-                    <a href="#" className="icon-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
+                  <div className="meta">
+                    <ul>
+                      <li>
+                        <span className="icon">
+                          <i className="flaticon-blanket" />
+                        </span>
+                      </li>
+                      <li>
+                        <span className="icon">
+                          <i className="flaticon-cat" />
+                        </span>
+                      </li>
+                      <li>
+                        <span className="icon">
+                          <i className="flaticon-tent" />
+                        </span>
+                      </li>
+                      <li>
+                        <span className="icon">
+                          <i className="flaticon-fire" />
+                        </span>
+                      </li>
+                    </ul>
+                    <div className="rate">
+                      <i className="fas fa-star" />
+                      4.9
+                    </div>
                   </div>
-                  <p>Set unde omnis estenatus voluptatem aperiae.</p>
+                  <h3 className="title">{service.title}</h3>
+                  <p>{service.description}</p>
+                  <a href={service.link} className="main-btn filled-btn">
+                    Check Now
+                    <i className="fas fa-paper-plane" />
+                  </a>
                 </div>
               </div>
-            </div>
-            {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
-              <div className="img-holder">
-                <img
-                  src="assets/images/features/feat-2.jpg"
-                  alt="Features Image"
-                />
-                <div className="content">
-                  <div className="text">
-                    <h4 className="title">Trailers and RV Spots</h4>
-                    <a href="#" className="icon-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </div>
-                  <p>Set unde omnis estenatus voluptatem aperiae.</p>
-                </div>
-              </div>
-            </div>
-            {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
-              <div className="img-holder">
-                <img
-                  src="assets/images/features/feat-3.jpg"
-                  alt="Features Image"
-                />
-                <div className="content">
-                  <div className="text">
-                    <h4 className="title">Adventure and Climbing</h4>
-                    <a href="#" className="icon-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </div>
-                  <p>Set unde omnis estenatus voluptatem aperiae.</p>
-                </div>
-              </div>
-            </div>
-            {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
-              <div className="img-holder">
-                <img
-                  src="assets/images/features/feat-4.jpg"
-                  alt="Features Image"
-                />
-                <div className="content">
-                  <div className="text">
-                    <h4 className="title">Couple Camping or Cabin</h4>
-                    <a href="#" className="icon-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </div>
-                  <p>Set unde omnis estenatus voluptatem aperiae.</p>
-                </div>
-              </div>
-            </div>
-            {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
-              <div className="img-holder">
-                <img
-                  src="assets/images/features/feat-1.jpg"
-                  alt="Features Image"
-                />
-                <div className="content">
-                  <div className="text">
-                    <h4 className="title">Tent Camping Services</h4>
-                    <a href="#" className="icon-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </div>
-                  <p>Set unde omnis estenatus voluptatem aperiae.</p>
-                </div>
-              </div>
-            </div>
-            {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
-              <div className="img-holder">
-                <img
-                  src="assets/images/features/feat-2.jpg"
-                  alt="Features Image"
-                />
-                <div className="content">
-                  <div className="text">
-                    <h4 className="title">Trailers and RV Spots</h4>
-                    <a href="#" className="icon-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </div>
-                  <p>Set unde omnis estenatus voluptatem aperiae.</p>
-                </div>
-              </div>
-            </div>
-            {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
-              <div className="img-holder">
-                <img
-                  src="assets/images/features/feat-3.jpg"
-                  alt="Features Image"
-                />
-                <div className="content">
-                  <div className="text">
-                    <h4 className="title">Adventure and Climbing</h4>
-                    <a href="#" className="icon-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </div>
-                  <p>Set unde omnis estenatus voluptatem aperiae.</p>
-                </div>
-              </div>
-            </div>
-            {/*=== Features Image Item ===*/}
-            <div className="single-features-item mb-40">
-              <div className="img-holder">
-                <img
-                  src="assets/images/features/feat-4.jpg"
-                  alt="Features Image"
-                />
-                <div className="content">
-                  <div className="text">
-                    <h4 className="title">Couple Camping or Cabin</h4>
-                    <a href="#" className="icon-btn">
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </div>
-                  <p>Set unde omnis estenatus voluptatem aperiae.</p>
-                </div>
-              </div>
-            </div>
+            ))}
           </Slider>
         </div>
       </section>
+      {/*====== End Activity Section ======*/}
+      {/*====== Start Places Section ======*/}
+      <section className="places-section pb-100">
+        <div className="container">
+          <div className="row justify-content-center">
+            {ServiceTypes.map((serviceType) => (
+              <div className="col-xl-4 col-md-6 col-sm-12 places-column">
+                {/*=== Single Place Item ===*/}
+                <div className="single-place-item mb-60 wow fadeInUp">
+                  <div className="place-img">
+                    <img src={serviceType.image} alt="Place Image" />
+                  </div>
+                  <div className="place-content">
+                    <div className="info">
+                      <h4 className="title">
+                        <Link legacyBehavior href="/tour-details">
+                          <a>{serviceType.title}</a>
+                        </Link>
+                      </h4>
+                      <p className="location">
+                        <i className="far fa-map-marker-alt" />
+                        {serviceType.location}
+                      </p>
+                      <p className="price">
+                        <i className="fas fa-usd-circle" />
+                        Price
+                        <span className="currency"> </span> {serviceType.price}
+                      </p>
+                      <div className="meta">
+                        <span>
+                          <i className="far fa-clock" />
+                          {serviceType.days} Days
+                        </span>
+                        <span></span>
+                        <span>
+                          <Link legacyBehavior href="/tour-details">
+                            <a>
+                              Details
+                              <i className="far fa-long-arrow-right" />
+                            </a>
+                          </Link>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      {/*====== End Places Section ======*/}
       {/*====== End Hero Section ======*/}
       {/*====== Start Booking Section ======*/}
 
@@ -1240,7 +1325,7 @@ const Index = () => {
               {/*=== Section Title ===*/}
               <div className="section-title text-center mb-45 wow fadeInDown">
                 <span className="sub-title">News &amp; Blog</span>
-                <h2>Amazing News &amp; Blog For Every Single Update</h2>
+                <h2>Amazing Nasdasdews &amp; Blog For Every Single Update</h2>
               </div>
             </div>
           </div>

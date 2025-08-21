@@ -794,7 +794,7 @@ const Index3 = () => {
             <div className="col-lg-7">
               <div className="section-title text-center mb-45">
                 <span className="sub-title">News &amp; Blog</span>
-                <h2>Amazing News &amp; Blog For Every Single Update</h2>
+                <h2>Amazing Nsews &amp; Blog For Every Single Update</h2>
               </div>
             </div>
           </div>

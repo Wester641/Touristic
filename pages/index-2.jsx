@@ -895,7 +895,7 @@ const Index2 = () => {
                 <div className="section-title mb-30">
                   <span className="sub-title">News &amp; Blog</span>
                   <h2>
-                    Amazing News &amp; Blog For Every Single Update Articles
+                    Amazing Newыs &amp; Blog For Every Single Update Articles
                     &amp; Tips
                   </h2>
                 </div>

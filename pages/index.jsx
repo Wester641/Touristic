@@ -178,7 +178,7 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             More
                             <i className="fas fa-paper-plane" />
@@ -212,7 +212,7 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             More
                             <i className="fas fa-paper-plane" />
@@ -246,7 +246,7 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             Explore More
                             <i className="fas fa-paper-plane" />
@@ -280,7 +280,7 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             Explore More
                             <i className="fas fa-paper-plane" />
@@ -383,7 +383,7 @@ const Index = () => {
                   <div className="place-content">
                     <div className="info">
                       <h4 className="title">
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/">
                           <a>{serviceType.title}</a>
                         </Link>
                       </h4>
@@ -403,7 +403,7 @@ const Index = () => {
                         </span>
                         <span></span>
                         <span>
-                          <Link legacyBehavior href="/tour-details">
+                          <Link legacyBehavior href="/">
                             <a>
                               Details
                               <i className="far fa-long-arrow-right" />
@@ -454,7 +454,7 @@ const Index = () => {
                 data-animation="fadeInRight"
                 data-delay=".6s"
               >
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="/">
                   <a className="main-btn primary-btn">
                     Contact Us
                     <i className="fas fa-paper-plane" />
@@ -481,7 +481,7 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
-                    <p>55 Main Street, Australia</p>
+                    <p>Ayni 85, Bishkek, Kyrgyzstan</p>
                   </div>
                 </div>
               </div>
@@ -494,7 +494,12 @@ const Index = () => {
                   <div className="info">
                     <span className="title">Email</span>
                     <p>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a
+                        href="mailto:almas.travels@hotmail.com
+"
+                      >
+                        Almas.travels@hotmail.com
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -508,7 +513,12 @@ const Index = () => {
                   <div className="info">
                     <span className="title">Hotline</span>
                     <p>
-                      <a href="tel:+000(123)456898">+000 (123) 456 898</a>
+                      <a
+                        href="tel:+996555551340
+"
+                      >
+                        +996 (555) 55 13 40
+                      </a>
                     </p>
                   </div>
                 </div>

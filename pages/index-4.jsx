@@ -96,7 +96,7 @@ const Index4 = () => {
                     className="avatar-box wow fadeInUp"
                     data-wow-delay=".75s"
                   >
-                    <img src="assets/images/about/avater.png" alt />
+                    <img src="assets/images//avater.png" alt />
                     <span>35+ People booked their dream place</span>
                   </div>
                 </div>
@@ -381,7 +381,7 @@ const Index4 = () => {
                   </span>
                 </div>
                 <div className="action-btn">
-                  <Link legacyBehavior href="/tour-details">
+                  <Link legacyBehavior href="/">
                     <a className="main-btn primary-btn">
                       Read More
                       <i className="far fa-paper-plane" />
@@ -422,7 +422,7 @@ const Index4 = () => {
                   </span>
                 </div>
                 <div className="action-btn">
-                  <Link legacyBehavior href="/tour-details">
+                  <Link legacyBehavior href="/">
                     <a className="main-btn primary-btn">
                       Read More
                       <i className="far fa-paper-plane" />
@@ -463,7 +463,7 @@ const Index4 = () => {
                   </span>
                 </div>
                 <div className="action-btn">
-                  <Link legacyBehavior href="/tour-details">
+                  <Link legacyBehavior href="/">
                     <a className="main-btn primary-btn">
                       Read More
                       <i className="far fa-paper-plane" />
@@ -504,7 +504,7 @@ const Index4 = () => {
                 </div>
                 <div className="place-content">
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       Hiking Mountains
                     </Link>
                   </h4>
@@ -535,7 +535,7 @@ const Index4 = () => {
                 </div>
                 <div className="place-content">
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       Surfer Riding Wave
                     </Link>
                   </h4>
@@ -566,7 +566,7 @@ const Index4 = () => {
                 </div>
                 <div className="place-content">
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       Tracing Hill On Cloud
                     </Link>
                   </h4>
@@ -597,7 +597,7 @@ const Index4 = () => {
                 </div>
                 <div className="place-content">
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       Hill House On Sea
                     </Link>
                   </h4>
@@ -628,7 +628,7 @@ const Index4 = () => {
                 </div>
                 <div className="place-content">
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       Tent Camping
                     </Link>
                   </h4>
@@ -659,7 +659,7 @@ const Index4 = () => {
                 </div>
                 <div className="place-content">
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       Hiking Mountains
                     </Link>
                   </h4>
@@ -690,7 +690,7 @@ const Index4 = () => {
                 </div>
                 <div className="place-content">
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       Climbing Up The Hills
                     </Link>
                   </h4>
@@ -721,7 +721,7 @@ const Index4 = () => {
                 </div>
                 <div className="place-content">
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       Tracing Hill On Cloud
                     </Link>
                   </h4>

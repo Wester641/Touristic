@@ -19,7 +19,7 @@ const services = [
     title: "RV Caravan Trailer",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
     image: "assets/images/place/place-1.jpg",
-    link: "/about",
+    link: "/",
     rate: "4.9",
     meta: [{}],
     days: "5",
@@ -28,7 +28,7 @@ const services = [
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
     image: "assets/images/place/place-2.jpg",
-    link: "/about",
+    link: "/",
     rate: "4.9",
     meta: [{}],
     days: "5",
@@ -37,7 +37,7 @@ const services = [
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
     image: "assets/images/place/place-3.jpg",
-    link: "/about",
+    link: "/",
     rate: "4.9",
     meta: [{}],
     days: "5",
@@ -46,7 +46,7 @@ const services = [
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
     image: "assets/images/place/place-4.jpg",
-    link: "/about",
+    link: "/",
     rate: "4.9",
     meta: [{}],
     days: "5",
@@ -55,7 +55,7 @@ const services = [
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
     image: "assets/images/place/place-4.jpg",
-    link: "/about",
+    link: "/",
     rate: "4.9",
     meta: [{}],
     days: "5",
@@ -64,7 +64,7 @@ const services = [
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
     image: "assets/images/place/place-4.jpg",
-    link: "/about",
+    link: "/",
     rate: "4.9",
     meta: [{}],
     days: "5",
@@ -73,7 +73,7 @@ const services = [
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
     image: "assets/images/place/place-4.jpg",
-    link: "/about",
+    link: "/",
     rate: "4.9",
     meta: [{}],
     days: "5",
@@ -82,7 +82,7 @@ const services = [
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
     image: "assets/images/place/place-4.jpg",
-    link: "/about",
+    link: "/",
     rate: "4.9",
     meta: [{}],
     days: "5",
@@ -96,7 +96,7 @@ const ServiceTypes = [
     location: "Maldives",
     price: "93.65",
     image: "assets/images/place/place-4.jpg",
-    link: "/about",
+    link: "/",
     days: "5",
   },
 
@@ -106,7 +106,7 @@ const ServiceTypes = [
     location: "Maldives",
     price: "93.65",
     image: "assets/images/place/place-3.jpg",
-    link: "/about",
+    link: "/",
     days: "5",
   },
   {
@@ -115,7 +115,7 @@ const ServiceTypes = [
     location: "Maldives",
     price: "93.65",
     image: "assets/images/place/place-4.jpg",
-    link: "/about",
+    link: "/",
     days: "5",
   },
   {
@@ -124,7 +124,7 @@ const ServiceTypes = [
     location: "Maldives",
     price: "93.65",
     image: "assets/images/place/place-2.jpg",
-    link: "/about",
+    link: "/",
     days: "5",
   },
   {
@@ -133,7 +133,7 @@ const ServiceTypes = [
     location: "Maldives",
     price: "93.65",
     image: "assets/images/place/place-3.jpg",
-    link: "/about",
+    link: "/",
     days: "5",
   },
   {
@@ -142,7 +142,7 @@ const ServiceTypes = [
     location: "Maldives",
     price: "93.65",
     image: "assets/images/place/place-4.jpg",
-    link: "/about",
+    link: "/",
     days: "5",
   },
 ];
@@ -178,7 +178,7 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             More
                             <i className="fas fa-paper-plane" />
@@ -212,7 +212,7 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             More
                             <i className="fas fa-paper-plane" />
@@ -246,7 +246,7 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             Explore More
                             <i className="fas fa-paper-plane" />
@@ -280,7 +280,7 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             Explore More
                             <i className="fas fa-paper-plane" />
@@ -383,7 +383,7 @@ const Index = () => {
                   <div className="place-content">
                     <div className="info">
                       <h4 className="title">
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/">
                           <a>{serviceType.title}</a>
                         </Link>
                       </h4>
@@ -403,7 +403,7 @@ const Index = () => {
                         </span>
                         <span></span>
                         <span>
-                          <Link legacyBehavior href="/tour-details">
+                          <Link legacyBehavior href="/">
                             <a>
                               Details
                               <i className="far fa-long-arrow-right" />
@@ -806,7 +806,7 @@ const Index = () => {
             <div className="single-service-item mb-40">
               <div className="content">
                 <h3 className="title">
-                  <Link legacyBehavior href="/tour-details">
+                  <Link legacyBehavior href="/">
                     <a>Classic Tents</a>
                   </Link>
                 </h3>
@@ -843,7 +843,7 @@ const Index = () => {
             <div className="single-service-item mb-40">
               <div className="content">
                 <h3 className="title">
-                  <Link legacyBehavior href="/tour-details">
+                  <Link legacyBehavior href="/">
                     Glamping Cabin
                   </Link>
                 </h3>
@@ -880,7 +880,7 @@ const Index = () => {
             <div className="single-service-item mb-40">
               <div className="content">
                 <h3 className="title">
-                  <Link legacyBehavior href="/tour-details">
+                  <Link legacyBehavior href="/">
                     RV Luxury Tent
                   </Link>
                 </h3>
@@ -917,7 +917,7 @@ const Index = () => {
             <div className="single-service-item mb-40">
               <div className="content">
                 <h3 className="title">
-                  <Link legacyBehavior href="/tour-details">
+                  <Link legacyBehavior href="/">
                     RV Luxury Tent
                   </Link>
                 </h3>
@@ -1065,7 +1065,7 @@ const Index = () => {
                 <h2 className="mb-35">
                   Ready to Travel With Real Adventure and Enjoy Natural
                 </h2>
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="/">
                   <a className="main-btn primary-btn">
                     Check Availability
                     <i className="far fa-paper-plane" />
@@ -1467,7 +1467,7 @@ const Index = () => {
                   <div className="info">
                     <span className="title">Hotline</span>
                     <p>
-                      <a href="tel:+000(123)456898">+000 (123) 456 898</a>
+                      <a href="tel:+000(123)456898">+996555551340</a>
                     </p>
                   </div>
                 </div>

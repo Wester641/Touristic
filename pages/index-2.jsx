@@ -36,7 +36,7 @@ const Index2 = () => {
                           data-animation="fadeInRight"
                           data-delay=".6s"
                         >
-                          <Link legacyBehavior href="/about">
+                          <Link legacyBehavior href="/">
                             <a className="main-btn primary-btn">
                               Explore More
                               <i className="fas fa-paper-plane" />
@@ -78,7 +78,7 @@ const Index2 = () => {
                           data-animation="fadeInRight"
                           data-delay=".6s"
                         >
-                          <Link legacyBehavior href="/about">
+                          <Link legacyBehavior href="/">
                             <a className="main-btn primary-btn">
                               Explore More
                               <i className="fas fa-paper-plane" />
@@ -291,7 +291,7 @@ const Index2 = () => {
               {/*=== About Image Box ===*/}
               <div className="about-one_image-box mb-50 wow fadeInRight">
                 <img
-                  src="assets/images/about/about-1.jpg"
+                  src="assets/images//-1.jpg"
                   className="radius-top-left-right-288"
                   alt="About image"
                 />
@@ -872,7 +872,7 @@ const Index2 = () => {
                 <h2 className="mb-35">
                   Ready to Travel With Real Adventure and Enjoy Natural
                 </h2>
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="/">
                   <a className="main-btn secondary-btn">
                     Check Availability
                     <i className="far fa-paper-plane" />

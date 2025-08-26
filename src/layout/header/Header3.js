@@ -119,7 +119,7 @@ const Header3 = () => {
               <Menu />
               {/*====== Menu Button ======*/}
               <div className="menu-button mt-40 d-xl-none">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="/">
                   <a className="main-btn secondary-btn">
                     Book Now
                     <i className="fas fa-paper-plane" />
@@ -136,7 +136,7 @@ const Header3 = () => {
                 </select>
               </div>
               <div className="menu-button d-xl-block d-none">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="/">
                   <a className="main-btn primary-btn">
                     Book Now
                     <i className="fas fa-paper-plane" />

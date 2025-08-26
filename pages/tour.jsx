@@ -97,7 +97,7 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         <a>Sitting on Boat Spreading Her Arms</a>
                       </Link>
                     </h4>
@@ -119,7 +119,7 @@ const Tour = () => {
                         25
                       </span>
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
@@ -163,7 +163,7 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         <a>White Canopy Tent Near Coastline</a>
                       </Link>
                     </h4>
@@ -185,7 +185,7 @@ const Tour = () => {
                         25
                       </span>
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
@@ -229,7 +229,7 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         <a>Sitting on Boat Spreading Her Arms</a>
                       </Link>
                     </h4>
@@ -251,7 +251,7 @@ const Tour = () => {
                         25
                       </span>
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
@@ -295,7 +295,7 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         <a>Sitting on Boat Spreading Her Arms</a>
                       </Link>
                     </h4>
@@ -317,7 +317,7 @@ const Tour = () => {
                         25
                       </span>
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
@@ -361,7 +361,7 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         <a>Cottages In The Middle Of Beach</a>
                       </Link>
                     </h4>
@@ -383,7 +383,7 @@ const Tour = () => {
                         25
                       </span>
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
@@ -427,7 +427,7 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         Beautiful Floating Villa on River
                       </Link>
                     </h4>
@@ -449,7 +449,7 @@ const Tour = () => {
                         25
                       </span>
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
@@ -493,7 +493,7 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         Man and Woman Walks on Dock
                       </Link>
                     </h4>
@@ -515,7 +515,7 @@ const Tour = () => {
                         25
                       </span>
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
@@ -559,7 +559,7 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         Trees Under White Clouds during Daytime
                       </Link>
                     </h4>
@@ -581,7 +581,7 @@ const Tour = () => {
                         25
                       </span>
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />
@@ -625,7 +625,7 @@ const Tour = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         Body of Water Near Mountain
                       </Link>
                     </h4>
@@ -647,7 +647,7 @@ const Tour = () => {
                         25
                       </span>
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/">
                           <a>
                             Details
                             <i className="far fa-long-arrow-right" />

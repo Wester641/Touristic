@@ -196,7 +196,7 @@ const DestinationDetails = () => {
                 <h2 className="mb-35">
                   Ready to Travel With Real Adventure and Enjoy Natural
                 </h2>
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="/">
                   <a className="main-btn primary-btn">
                     Check Availability
                     <i className="far fa-paper-plane" />
@@ -262,7 +262,7 @@ const DestinationDetails = () => {
                     </li>
                   </ul>
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       <a>Man and Woman Walks on Dock</a>
                     </Link>
                   </h4>
@@ -284,7 +284,7 @@ const DestinationDetails = () => {
                       25
                     </span>
                     <span>
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         <a>
                           Details
                           <i className="far fa-long-arrow-right" />
@@ -323,7 +323,7 @@ const DestinationDetails = () => {
                     </li>
                   </ul>
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       <a>Trees Under White Clouds during Daytime</a>
                     </Link>
                   </h4>
@@ -345,7 +345,7 @@ const DestinationDetails = () => {
                       25
                     </span>
                     <span>
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         <a>
                           Details
                           <i className="far fa-long-arrow-right" />
@@ -384,7 +384,7 @@ const DestinationDetails = () => {
                     </li>
                   </ul>
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       <a>Body of Water Near Mountain</a>
                     </Link>
                   </h4>
@@ -406,7 +406,7 @@ const DestinationDetails = () => {
                       25
                     </span>
                     <span>
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         <a>
                           Details
                           <i className="far fa-long-arrow-right" />
@@ -445,7 +445,7 @@ const DestinationDetails = () => {
                     </li>
                   </ul>
                   <h4 className="title">
-                    <Link legacyBehavior href="/tour-details">
+                    <Link legacyBehavior href="/">
                       <a>Man Standing on a Rock</a>
                     </Link>
                   </h4>
@@ -467,7 +467,7 @@ const DestinationDetails = () => {
                       25
                     </span>
                     <span>
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/">
                         <a>
                           Details
                           <i className="far fa-long-arrow-right" />

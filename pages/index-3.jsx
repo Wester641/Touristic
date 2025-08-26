@@ -113,7 +113,7 @@ const Index3 = () => {
       {/*====== Start About Section ======*/}
       <section
         className="about-section bg_cover pt-165 pb-210"
-        style={{ backgroundImage: "url(assets/images/bg/about-bg-1.jpg)" }}
+        style={{ backgroundImage: "url(assets/images/bg/-bg-1.jpg)" }}
       >
         <div className="container">
           <div className="row align-items-xl-center">
@@ -121,7 +121,7 @@ const Index3 = () => {
               {/*=== About Image Box ===*/}
               <div className="about-image-box mb-50">
                 <img
-                  src="assets/images/about/about-2.jpg"
+                  src="assets/images//-2.jpg"
                   className="rounded-2"
                   alt="About Image"
                 />
@@ -141,7 +141,7 @@ const Index3 = () => {
                   massa lacus Ultrices eget leo cras odio blandit rhoncus eues
                   feugiat
                 </p>
-                <img src="assets/images/about/avater.png" alt="Avater" />
+                <img src="assets/images//avater.png" alt="Avater" />
               </div>
             </div>
           </div>
@@ -320,7 +320,7 @@ const Index3 = () => {
             <div className="single-service-item-three mb-40">
               <div className="content">
                 <h3 className="title">
-                  <Link legacyBehavior href="/tour-details">
+                  <Link legacyBehavior href="/">
                     <a>Small Cabin Wood</a>
                   </Link>
                 </h3>
@@ -373,7 +373,7 @@ const Index3 = () => {
                 <h2 className="mb-35">
                   Ready to Travel With Real Adventure and Enjoy Natural
                 </h2>
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="/">
                   <a className="main-btn secondary-btn">
                     Check Availability
                     <i className="far fa-paper-plane" />

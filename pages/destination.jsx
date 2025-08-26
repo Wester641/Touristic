@@ -305,7 +305,7 @@ const Destination = () => {
                 <h2 className="mb-35">
                   Ready to Travel With Real Adventure and Enjoy Natural
                 </h2>
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="/">
                   <a className="main-btn secondary-btn">
                     Check Availability
                     <i className="far fa-paper-plane" />

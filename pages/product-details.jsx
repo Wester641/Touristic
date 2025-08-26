@@ -322,7 +322,7 @@ const ProductDetails = () => {
                         src="assets/images/shop/mockup.png"
                         alt="Banner Image"
                       />
-                      <Link legacyBehavior href="/contact">
+                      <Link legacyBehavior href="/">
                         <a className="main-btn secondary-btn">
                           Shop Now
                           <i className="far fa-paper-plane" />

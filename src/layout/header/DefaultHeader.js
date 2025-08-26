@@ -75,7 +75,7 @@ const DefaultHeader = () => {
       {/*====== Header Navigation ======*/}
       <div className="header-navigation">
         <div className="nav-overlay" />
-        <div className="container-fluid">
+        <div className="container-fluid d-xl-none">
           <div className="primary-menu gray-bg">
             {/*====== Site Branding ======*/}
             <div className="site-brading d-block d-xl-none">
@@ -119,7 +119,7 @@ const DefaultHeader = () => {
               <Menu />
               {/*====== Menu Button ======*/}
               <div className="menu-button mt-40 d-xl-none">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="/">
                   <a className="main-btn secondary-btn">
                     Book Now
                     <i className="fas fa-paper-plane" />
@@ -136,7 +136,7 @@ const DefaultHeader = () => {
                 </select>
               </div>
               <div className="menu-button d-xl-block d-none">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="/">
                   <a className="main-btn primary-btn">
                     Book Now
                     <i className="fas fa-paper-plane" />

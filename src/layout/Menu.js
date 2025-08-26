@@ -21,9 +21,11 @@ const DeskTopMenu = () => {
         handleClose={() => setSearchModal(false)}
       />
       <nav className="main-menu d-none d-xl-block">
-        <ul>
+        {/* <ul>
           <li className="menu-item has-children">
-            <a href="!#">Home</a>
+            <a href="!#">
+              Home
+            </a>
           </li>
           <li className="menu-item has-children">
             <a href="!#">
@@ -111,7 +113,7 @@ const DeskTopMenu = () => {
               <i className="far fa-search" />
             </div>
           </li>
-        </ul>
+        </ul> */}
       </nav>
     </Fragment>
   );

@@ -1197,7 +1197,7 @@ const TourDetails = () => {
                             </li>
                           </ul>
                           <h5>
-                            <Link legacyBehavior href="/tour-details">
+                            <Link legacyBehavior href="/">
                               <a>Infinity Pool Nears Beach</a>
                             </Link>
                           </h5>
@@ -1231,7 +1231,7 @@ const TourDetails = () => {
                             </li>
                           </ul>
                           <h5>
-                            <Link legacyBehavior href="/tour-details">
+                            <Link legacyBehavior href="/">
                               <a>Infinity Pool Nears Beach</a>
                             </Link>
                           </h5>
@@ -1265,7 +1265,7 @@ const TourDetails = () => {
                             </li>
                           </ul>
                           <h5>
-                            <Link legacyBehavior href="/tour-details">
+                            <Link legacyBehavior href="/">
                               <a>Infinity Pool Nears Beach</a>
                             </Link>
                           </h5>

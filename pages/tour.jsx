@@ -662,7 +662,7 @@ const Tour = () => {
           </div>
           <div className="row">
             <div className="col-lg-12">
-              {/*=== Gowilds Pagination ===*/}
+              {/*=== Almas Travel Pagination ===*/}
               <ul className="gowilds-pagination wow fadeInUp text-center">
                 <li>
                   <a href="#">

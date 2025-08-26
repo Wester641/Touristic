@@ -102,7 +102,7 @@ const Events = () => {
                       <a href="#">September 25, 2022</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">How To Enjoy Adventure Trip With Almas Travel</a>
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
@@ -152,7 +152,7 @@ const Events = () => {
                       <a href="#">September 25, 2022</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">How To Enjoy Adventure Trip With Almas Travel</a>
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
@@ -177,7 +177,7 @@ const Events = () => {
                       <a href="#">September 25, 2022</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">How To Enjoy Adventure Trip With Almas Travel</a>
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
@@ -252,7 +252,7 @@ const Events = () => {
                       <a href="#">September 25, 2022</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">How To Enjoy Adventure Trip With Almas Travel</a>
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
@@ -277,7 +277,7 @@ const Events = () => {
                       <a href="#">September 25, 2022</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">How To Enjoy Adventure Trip With Almas Travel</a>
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
@@ -302,7 +302,7 @@ const Events = () => {
                       <a href="#">September 25, 2022</a>
                     </span>
                     <h3 className="title">
-                      <a href="#">How To Enjoy Adventure Trip With Gowilds</a>
+                      <a href="#">How To Enjoy Adventure Trip With Almas Travel</a>
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu

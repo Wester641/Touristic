@@ -23,9 +23,7 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item has-children">
-            <a href="!#">
-              Home
-            </a>
+            <a href="!#">Home</a>
           </li>
           <li className="menu-item has-children">
             <a href="!#">
@@ -122,7 +120,7 @@ const DeskTopMenu = () => {
 const MobileMenu = () => {
   const [activeMenu, setActiveMenu] = useState("");
   const activeMenuSet = (value) =>
-    setActiveMenu(activeMenu === value ? "" : value),
+      setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
   return (

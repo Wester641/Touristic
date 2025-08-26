@@ -528,23 +528,13 @@ const Index = () => {
                 <div className="social-box mb-40 float-lg-end">
                   <ul className="social-link">
                     <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
+                      <a href="wa.link/dwvf6z">
+                        <i className="fab fa-whatsapp" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/almastravel.kg?igsh=a3F1YmF2OHZ2bnF5">
                         <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
                       </a>
                     </li>
                   </ul>

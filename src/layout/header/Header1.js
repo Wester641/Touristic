@@ -35,7 +35,7 @@ const Header1 = () => {
                 </Link>
               </div>
               {/*=== Nav Search ===*/}
-              <div className="nav-search mb-30 d-block d-xl-none ">
+              {/* <div className="nav-search mb-30 d-block d-xl-none ">
                 <form>
                   <div className="form_group">
                     <input
@@ -50,7 +50,7 @@ const Header1 = () => {
                     </button>
                   </div>
                 </form>
-              </div>
+              </div> */}
               {/*====== main Menu ======*/}
               <Menu />
               {/*====== Menu Button ======*/}

@@ -527,7 +527,7 @@ const Index = () => {
                 {/*=== Social Box ===*/}
                 <div className="social-box mb-40 float-lg-end">
                   <ul className="social-link">
-                    <li>
+                    <li className="m-2">
                       <a href="wa.link/dwvf6z">
                         <i className="fab fa-whatsapp" />
                       </a>

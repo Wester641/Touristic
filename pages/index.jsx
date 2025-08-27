@@ -528,7 +528,7 @@ const Index = () => {
                 <div className="social-box mb-40 float-lg-end">
                   <ul className="social-link">
                     <li className="m-2">
-                      <a href="wa.link/dwvf6z">
+                      <a href="https://wa.link/dwvf6z">
                         <i className="fab fa-whatsapp" />
                       </a>
                     </li>

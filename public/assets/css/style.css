@@ -313,12 +313,14 @@ ul.slick-dots li button::before,
 .single-features-item .img-holder .text .icon-btn,
 .single-features-item .img-holder .text h4.title:before,
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li .dd-trigger,
-.main-btn.filled-btn.filled-white:hover,
-.main-btn.filled-btn:hover,
-.main-btn.filled-btn i,
 .main-btn.secondary-btn:hover,
 .main-btn.primary-btn {
-  background-color: #156eaab5;
+  background: #156eaa;
+}
+.main-btn.filled-btn.filled-white:hover,
+.main-btn.filled-btn:hover,
+.main-btn.filled-btn i {
+  background: #156eaa;
 }
 
 .hero-slider-two .slick-arrow:hover,

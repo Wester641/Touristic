@@ -20,7 +20,7 @@ const DestinationDetails = () => {
               <div className="meta">
                 <span className="location">
                   <i className="fas fa-map-marker-alt" />
-                  Gaafu Dhaalu Atoll, Maldives
+                  Gaafu Dhaalu Atoll, Ala-Archa
                 </span>
                 <ul className="ratings">
                   <li>
@@ -73,7 +73,7 @@ const DestinationDetails = () => {
                   />
                 </div>
               </div>
-              <h3>Why Choose Maldives</h3>
+              <h3>Why Choose Ala-Archa</h3>
               <p>
                 On the other hand, we denounce with righteous indignation and
                 dislike men who are so beguiled and demoralized by the charms
@@ -271,7 +271,7 @@ const DestinationDetails = () => {
                   </h4>
                   <p className="location">
                     <i className="fas fa-map-marker-alt" />
-                    North Province, Maldives
+                    North Province, Ala-Archa
                   </p>
                   <p className="price">
                     <i className="fas fa-usd-circle" />
@@ -332,7 +332,7 @@ const DestinationDetails = () => {
                   </h4>
                   <p className="location">
                     <i className="fas fa-map-marker-alt" />
-                    North Province, Maldives
+                    North Province, Ala-Archa
                   </p>
                   <p className="price">
                     <i className="fas fa-usd-circle" />
@@ -393,7 +393,7 @@ const DestinationDetails = () => {
                   </h4>
                   <p className="location">
                     <i className="fas fa-map-marker-alt" />
-                    North Province, Maldives
+                    North Province, Ala-Archa
                   </p>
                   <p className="price">
                     <i className="fas fa-usd-circle" />
@@ -454,7 +454,7 @@ const DestinationDetails = () => {
                   </h4>
                   <p className="location">
                     <i className="fas fa-map-marker-alt" />
-                    North Province, Maldives
+                    North Province, Ala-Archa
                   </p>
                   <p className="price">
                     <i className="fas fa-usd-circle" />

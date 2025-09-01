@@ -74,7 +74,7 @@ export default class RelatedTours extends Component {
                 </h4>
                 <p className="location">
                   <i className="fas fa-map-marker-alt" />
-                  North Province, Maldives
+                  North Province, Ala-Archa
                 </p>
                 <p className="price">
                   <i className="fas fa-usd-circle" />
@@ -135,7 +135,7 @@ export default class RelatedTours extends Component {
                 </h4>
                 <p className="location">
                   <i className="fas fa-map-marker-alt" />
-                  North Province, Maldives
+                  North Province, Ala-Archa
                 </p>
                 <p className="price">
                   <i className="fas fa-usd-circle" />
@@ -196,7 +196,7 @@ export default class RelatedTours extends Component {
                 </h4>
                 <p className="location">
                   <i className="fas fa-map-marker-alt" />
-                  North Province, Maldives
+                  North Province, Ala-Archa
                 </p>
                 <p className="price">
                   <i className="fas fa-usd-circle" />

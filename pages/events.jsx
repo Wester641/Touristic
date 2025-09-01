@@ -106,7 +106,7 @@ const Events = () => {
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      Atoll, Ala-Archa
                     </p>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ const Events = () => {
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      Atoll, Ala-Archa
                     </p>
                   </div>
                 </div>
@@ -156,7 +156,7 @@ const Events = () => {
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      Atoll, Ala-Archa
                     </p>
                   </div>
                 </div>
@@ -181,7 +181,7 @@ const Events = () => {
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      Atoll, Ala-Archa
                     </p>
                   </div>
                 </div>
@@ -206,7 +206,7 @@ const Events = () => {
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      Atoll, Ala-Archa
                     </p>
                   </div>
                 </div>
@@ -231,7 +231,7 @@ const Events = () => {
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      Atoll, Ala-Archa
                     </p>
                   </div>
                 </div>
@@ -256,7 +256,7 @@ const Events = () => {
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      Atoll, Ala-Archa
                     </p>
                   </div>
                 </div>
@@ -281,7 +281,7 @@ const Events = () => {
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      Atoll, Ala-Archa
                     </p>
                   </div>
                 </div>
@@ -306,7 +306,7 @@ const Events = () => {
                     </h3>
                     <p className="location">
                       <i className="far fa-map-marker-alt" /> Gaafu Dhaalu
-                      Atoll, Maldives
+                      Atoll, Ala-Archa
                     </p>
                   </div>
                 </div>

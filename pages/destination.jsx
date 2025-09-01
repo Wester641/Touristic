@@ -154,7 +154,7 @@ const Destination = () => {
                   <span className="tour-count">5 Tours</span>
                   <div className="place-content">
                     <div className="info text-white">
-                      <h3 className="title mb-10">Maldives</h3>
+                      <h3 className="title mb-10">Ala-Archa</h3>
                       <p className="price">
                         <span className="currency">$</span>225.63
                       </p>

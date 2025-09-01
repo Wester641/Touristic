@@ -103,7 +103,7 @@ const Tour = () => {
                     </h4>
                     <p className="location">
                       <i className="far fa-map-marker-alt" />
-                      North Province, Maldives
+                      North Province, Ala-Archa
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
@@ -169,7 +169,7 @@ const Tour = () => {
                     </h4>
                     <p className="location">
                       <i className="far fa-map-marker-alt" />
-                      North Province, Maldives
+                      North Province, Ala-Archa
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
@@ -433,7 +433,7 @@ const Tour = () => {
                     </h4>
                     <p className="location">
                       <i className="far fa-map-marker-alt" />
-                      Gaafu Dhaalu Atoll, Maldives
+                      Gaafu Dhaalu Atoll, Ala-Archa
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
@@ -499,7 +499,7 @@ const Tour = () => {
                     </h4>
                     <p className="location">
                       <i className="far fa-map-marker-alt" />
-                      Maldives
+                      Ala-Archa
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />

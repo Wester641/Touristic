@@ -92,8 +92,8 @@ const services = [
 const ServiceTypes = [
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-4.jpg",
     link: "/",
@@ -102,8 +102,8 @@ const ServiceTypes = [
 
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-3.jpg",
     link: "/",
@@ -111,8 +111,8 @@ const ServiceTypes = [
   },
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-4.jpg",
     link: "/",
@@ -120,8 +120,8 @@ const ServiceTypes = [
   },
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-2.jpg",
     link: "/",
@@ -129,8 +129,8 @@ const ServiceTypes = [
   },
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-3.jpg",
     link: "/",
@@ -138,8 +138,8 @@ const ServiceTypes = [
   },
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-4.jpg",
     link: "/",
@@ -1596,8 +1596,9 @@ const Index = () => {
                 {/*=== Footer Text ===*/}
                 <div className="footer-text">
                   <p>
-                    Copy@ 2023 <span style={{ color: "#F7921E" }}>Almas Travel</span>
-                    , All Right Reserved
+                    Copy@ 2023{" "}
+                    <span style={{ color: "#F7921E" }}>Almas Travel</span>, All
+                    Right Reserved
                   </p>
                 </div>
               </div>

@@ -1,4 +1,5 @@
 import GallerySection from "@/src/components/GallerySection";
+import PopupLinks from "@/src/components/PopupLinks";
 import Layout from "@/src/layout/Layout";
 import {
   home2Slider,
@@ -8,7 +9,8 @@ import {
 } from "@/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import { Nav, Tab } from "react-bootstrap";
+import { useState } from "react";
+// import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -92,8 +94,8 @@ const services = [
 const ServiceTypes = [
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-4.jpg",
     link: "/",
@@ -102,8 +104,8 @@ const ServiceTypes = [
 
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-3.jpg",
     link: "/",
@@ -111,8 +113,8 @@ const ServiceTypes = [
   },
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-4.jpg",
     link: "/",
@@ -120,8 +122,8 @@ const ServiceTypes = [
   },
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-2.jpg",
     link: "/",
@@ -129,8 +131,8 @@ const ServiceTypes = [
   },
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-3.jpg",
     link: "/",
@@ -138,8 +140,8 @@ const ServiceTypes = [
   },
   {
     title: "Man and Woman Walks on Dock",
-    description: "Maldives",
-    location: "Maldives",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
     price: "93.65",
     image: "assets/images/place/place-4.jpg",
     link: "/",
@@ -148,8 +150,14 @@ const ServiceTypes = [
 ];
 
 const Index = () => {
+  const [close, setClose] = useState(false);
+  const handleClose = () => {
+    setClose(!close);
+  };
   return (
     <Layout header={1} noFooter>
+      {close && <PopupLinks close={handleClose} />}
+
       {/*====== Start Hero Section ======*/}
       <section className="hero-section">
         {/*=== Hero Wrapper ===*/}
@@ -431,10 +439,10 @@ const Index = () => {
               {/*=== CTA Content Box ===*/}
               <div className="cta-content-box text-white wow fadeInLeft">
                 <h2 className="mb-35">
-                  Ready to Travel With Real Adventure and Enjoy Natural
+                  Discover Untouched Nature in the Heart of Kyrgyz Mountains{" "}
                 </h2>
                 <Link legacyBehavior href="/">
-                  <a className="main-btn secondary-btn">
+                  <a className="main-btn primary-btn">
                     Check Availability
                     <i className="far fa-paper-plane" />
                   </a>
@@ -469,19 +477,14 @@ const Index = () => {
               </div>
             </div>
             <p className="col-xl-12">
-              Sed ut perspiciatis unde omniste natus error sit voluptatem
-              accusantium doloremque laudantium totam rem aperiam, eaque ip quae
-              abillo inventore veritatis et quasi architecto beatae vitae dicta
-              sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-              est, qui dolorem ipsum quia dolor si amet consectetur adipisci
-              velit sed quian numquam eius modi tempora incidunt ut labore
-              dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam
-              qunostrum exercitationem ullam corporis suscipit laboriosaey nisi
-              ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
-              reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-              consequatur veillum qui dolorem voluptas nulla pariatur
+              Discover the best ways to experience the beauty of Kyrgyzstan.
+              From breathtaking hikes in the Tian Shan mountains to horseback
+              riding across wide valleys and camping under starry skies — every
+              adventure brings you closer to untouched nature and local
+              traditions. Our travel experts are ready to guide you, answer your
+              questions, and help you choose the perfect route for your journey.
+              Whether you’re seeking adrenaline, cultural discovery, or peaceful
+              escapes, we’ll make sure your trip is unforgettable.
             </p>
 
             <div className="col-xl-12 text-center mt-5">
@@ -490,12 +493,12 @@ const Index = () => {
                 data-animation="fadeInRight"
                 data-delay=".6s"
               >
-                <Link legacyBehavior href="/">
-                  <a className="main-btn primary-btn">
-                    Contact Us
-                    <i className="fas fa-paper-plane" />
-                  </a>
-                </Link>
+                {/* <Link legacyBehavior href="/#" > */}
+                <a className="main-btn primary-btn" onClick={handleClose}>
+                  Contact Us
+                  <i className="fas fa-paper-plane" />
+                </a>
+                {/* </Link> */}
               </div>
             </div>
           </div>

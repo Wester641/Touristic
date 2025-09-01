@@ -179,7 +179,7 @@ h1 {
 .header-navigation .main-menu ul > li.search-item .search-btn:hover,
 .btn-link:hover,
 .sub-title {
-  color: #156eaa;
+  color:  #112253;
 }
 
 .reviews-wrapper .reviews-inner-box .rating-value .rate-score,
@@ -315,12 +315,12 @@ ul.slick-dots li button::before,
 .header-navigation.breakpoint-on .nav-menu .main-menu ul li .dd-trigger,
 .main-btn.secondary-btn:hover,
 .main-btn.primary-btn {
-  background: #156eaa;
+  background:  #112253;
 }
 .main-btn.filled-btn.filled-white:hover,
 .main-btn.filled-btn:hover,
 .main-btn.filled-btn i {
-  background: #156eaa;
+  background:  #112253;
 }
 
 .hero-slider-two .slick-arrow:hover,
@@ -1058,7 +1058,7 @@ button {
 .preloader .pre-box {
   width: 50px;
   height: 50px;
-  background: #156eaa;
+  background:  #112253;
   -webkit-animation: loaderAnimate 0.5s linear infinite;
   animation: loaderAnimate 0.5s linear infinite;
   position: absolute;
@@ -1137,7 +1137,7 @@ button {
 }
 /*====== Start Back to top css ======*/
 .back-to-top {
-  background-color: #156eaa;
+  background-color:  #112253;
   border-radius: 50%;
   bottom: 30px;
   color: #fff;
@@ -1877,7 +1877,7 @@ button {
   font-size: 18px;
   line-height: 28px;
   padding-left: 25px;
-  border-left: 3px solid #156eaa;
+  border-left: 3px solid  #112253;
   margin-bottom: 55px;
 }
 .hero-wrapper-four .hero-content .hero-search-form {
@@ -2341,7 +2341,7 @@ button {
 .fancy-icon-box:hover {
   -webkit-box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.07);
   box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.07);
-  border-color: #156eaa;
+  border-color:  #112253;
 }
 .fancy-icon-box .icon {
   -webkit-box-flex: 0;
@@ -2894,8 +2894,8 @@ button {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 10px solid #156eaa;
-  border-color: transparent #156eaa #156eaa;
+  border: 10px solid  #112253;
+  border-color: transparent  #112253  #112253;
   -webkit-transform: rotate(55deg);
   transform: rotate(55deg);
 }
@@ -3093,7 +3093,7 @@ button {
   transition: all 0.3s ease-out 0s;
 }
 .single-service-item:hover {
-  border-color: #156eaa;
+  border-color:  #112253;
 }
 .single-service-item .content {
   position: relative;
@@ -4414,7 +4414,7 @@ button {
 }
 .description-tabs .nav-link:hover,
 .description-tabs .nav-link.active {
-  border-color: #156eaa;
+  border-color:  #112253;
 }
 
 /*--==== Description Wrapper ====--*/
@@ -4661,7 +4661,7 @@ button {
   }
 }
 .single-blog-post-four .entry-content .post-meta span:hover a {
-  color: #156eaa;
+  color:  #112253;
 }
 .single-blog-post-four .entry-content h6.author {
   font: 400 18px "Prompt", sans-serif;
@@ -4685,7 +4685,7 @@ button {
   text-transform: uppercase;
 }
 .blog-post .post-meta span:hover a {
-  color: #156eaa;
+  color:  #112253;
 }
 @media (max-width: 767px) {
   .blog-post .post-meta span {
@@ -5207,7 +5207,7 @@ form.comment-form .form_control:focus {
   align-items: center;
 }
 .sidebar-widget-area .category-widget ul.category-nav li a:hover {
-  border-color: #156eaa;
+  border-color:  #112253;
 }
 .sidebar-widget-area .category-widget ul.category-nav li a i {
   -webkit-margin-start: auto;
@@ -5827,7 +5827,7 @@ ul.slick-dots li button::before {
   opacity: 1 !important;
 }
 ul.slick-dots li.slick-active button {
-  border-color: #156eaa;
+  border-color:  #112253;
 }
 
 /* Hero Slider One */

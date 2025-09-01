@@ -420,6 +420,42 @@ const Index = () => {
         </div>
       </section>
       {/*====== End Places Section ======*/}
+      {/*====== Start CTA Section ======*/}
+      <section
+        className="cta-bg overlay bg_cover pt-150 pb-150"
+        style={{ backgroundImage: "url(assets/images/bg/cta-bg2.jpg)" }}
+      >
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-xl-7 col-lg-8">
+              {/*=== CTA Content Box ===*/}
+              <div className="cta-content-box text-white wow fadeInLeft">
+                <h2 className="mb-35">
+                  Ready to Travel With Real Adventure and Enjoy Natural
+                </h2>
+                <Link legacyBehavior href="/">
+                  <a className="main-btn secondary-btn">
+                    Check Availability
+                    <i className="far fa-paper-plane" />
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-xl-5 col-lg-4">
+              {/*=== Play Box ===*/}
+              <div className="play-box text-lg-end text-center wow fadeInRight">
+                <a
+                  href="https://www.youtube.com/watch?v=i5CBuOXaKXo&list=RDi5CBuOXaKXo&start_radio=1v=i5CBuOXaKXo&list=RDi5CBuOXaKXo&start_radio=1"
+                  className="video-popup"
+                >
+                  <i className="fas fa-play" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== End CTA Section ======*/}
       {/*====== Start Activity Section ======*/}
       <section className="activity-section">
         <div className="activity-wrapper-bgc  text-white black-bg">
@@ -465,6 +501,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+
       {/*====== End Activity Section ======*/}
       {/* <GallerySection /> */}
       {/*====== End Gallery Section ======*/}
@@ -542,6 +579,7 @@ const Index = () => {
               </div>
             </div>
           </div>
+
           {/*=== Footer Widget ===*/}
           <div className="footer-widget-area pt-75 pb-30">
             <div className="row">

@@ -317,7 +317,7 @@ const Destination = () => {
               {/*=== Play Box ===*/}
               <div className="play-box text-lg-end text-center wow fadeInRight">
                 <a
-                  href="https://www.youtube.com/watch?v=ibuUmMhD2Pg"
+                  href="https://www.youtube.com/watch?v=i5CBuOXaKXo&list=RDi5CBuOXaKXo&start_radio=1v=ibuUmMhD2Pg"
                   className="video-popup"
                 >
                   <i className="fas fa-play" />

@@ -4,6 +4,9 @@ import Layout from "@/src/layout/Layout";
 import { sliderActive3Item, sliderActive3ItemDot } from "@/src/sliderProps";
 import Link from "next/link";
 import Slider from "react-slick";
+
+// #112253
+
 const DestinationDetails = () => {
   return (
     <Layout extraClass={"pt-160"}>
@@ -208,7 +211,7 @@ const DestinationDetails = () => {
               {/*=== Play Box ===*/}
               <div className="play-box text-lg-end text-center wow fadeInRight">
                 <a
-                  href="https://www.youtube.com/watch?v=ibuUmMhD2Pg"
+                  href="https://www.youtube.com/watch?v=i5CBuOXaKXo&list=RDi5CBuOXaKXo&start_radio=1v=ibuUmMhD2Pg"
                   className="video-popup"
                 >
                   <i className="fas fa-play" />

@@ -312,8 +312,10 @@ const Index = () => {
             <div className="col-xl-7">
               {/*====== Section Title ======*/}
               <div className="section-title text-center mb-50 wow fadeInDown">
-                <span className="sub-title">Find Your Trip</span>
-                <h2>Popular Kyrgyzstan Trekking and Hiking Tours</h2>
+                <span className="sub-title ">Find Your Trip</span>
+                <h2 className="darkblue-text">
+                  Popular Kyrgyzstan Trekking and Hiking Tours
+                </h2>
               </div>
             </div>
           </div>
@@ -390,7 +392,7 @@ const Index = () => {
                   </div>
                   <div className="place-content">
                     <div className="info">
-                      <h4 className="title">
+                      <h4 className="title darkblue-text">
                         <Link legacyBehavior href="/">
                           <a>{serviceType.title}</a>
                         </Link>
@@ -405,12 +407,12 @@ const Index = () => {
                         <span className="currency"> </span> {serviceType.price}
                       </p>
                       <div className="meta">
-                        <span>
+                        <span className="">
                           <i className="far fa-clock" />
                           {serviceType.days} Days
                         </span>
                         <span></span>
-                        <span>
+                        <span className="darkblue-text">
                           <Link legacyBehavior href="/">
                             <a>
                               Details
@@ -472,11 +474,11 @@ const Index = () => {
               <div className="col-xl-7">
                 <div className="section-title text-center mb-50 wow fadeInDown">
                   <span className="sub-title">Popular Activity</span>
-                  <h2>Talk to an Expert</h2>
+                  <h2 className="blue-text">Talk to an Expert</h2>
                 </div>
               </div>
             </div>
-            <p className="col-xl-12">
+            <p className="col-xl-12 orange-text">
               Discover the best ways to experience the beauty of Kyrgyzstan.
               From breathtaking hikes in the Tian Shan mountains to horseback
               riding across wide valleys and camping under starry skies — every

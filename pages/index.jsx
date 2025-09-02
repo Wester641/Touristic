@@ -1,5 +1,6 @@
 import GallerySection from "@/src/components/GallerySection";
 import PopupLinks from "@/src/components/PopupLinks";
+import { TestimonialData } from "@/src/constance";
 import Layout from "@/src/layout/Layout";
 import {
   home2Slider,
@@ -466,6 +467,148 @@ const Index = () => {
         </div>
       </section>
       {/*====== End CTA Section ======*/}
+      {/*====== Start Fact Section ======*/}
+      <section className="fact-section pt-100">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-sm-6">
+              {/*=== Counter Item ===*/}
+              <div className="single-counter-item text-center mb-40 wow fadeInUp">
+                <div className="icon">
+                  <i className="flaticon-journey" />
+                </div>
+                <h2 className="number">
+                  <Counter end={2390} />+
+                </h2>
+                <p>Happy Traveler</p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              {/*=== Counter Item ===*/}
+              <div className="single-counter-item text-center mb-40 wow fadeInDown">
+                <div className="icon">
+                  <i className="flaticon-tent-1" />
+                </div>
+                <h2 className="number">
+                  <Counter end={768} />+
+                </h2>
+                <p>Tent Sites</p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              {/*=== Counter Item ===*/}
+              <div className="single-counter-item text-center mb-40 wow fadeInUp">
+                <div className="icon">
+                  <i className="flaticon-reviews" />
+                </div>
+                <h2 className="number">
+                  <Counter end={99.3} decimals={1} />%
+                </h2>
+                <p>Positive Reviews</p>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              {/*=== Counter Item ===*/}
+              <div className="single-counter-item text-center mb-40 wow fadeInDown">
+                <div className="icon">
+                  <i className="flaticon-award" />
+                </div>
+                <h2 className="number">
+                  <Counter end={12} />K
+                </h2>
+                <p>Awards Winning</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== End Fact Section ======*/}
+      {/*====== Start Testimonial Section ======*/}
+      <section className="testimonial-section pt-60">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-8">
+              {/*=== Section Title ===*/}
+              <div className="section-title text-center mb-50 wow fadeInDown">
+                <span className="sub-title">Testimonials</span>
+                <h2 className="darkblue-text">
+                  What Our Traveler Say About Our Tour Services
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div className="row align-items-xl-center">
+            <div className="col-xl-5 col-lg-12 order-2 order-xl-1">
+              {/*=== Testimonial Image ===*/}
+              <div className="testimonial-one_image-box mb-40 wow fadeInLeft">
+                <img
+                  src="assets/images/testimonial/testimonial-1.jpg"
+                  alt="Testimonial Image"
+                />
+              </div>
+            </div>
+            <div className="col-xl-7 col-lg-12 order-1 order-xl-2">
+              {/*=== Testimonial Slider ===*/}
+              <Slider
+                {...testimonialSliderOne}
+                className="testimonial-slider-one pl-lg-55 mb-40 wow fadeInRight"
+              >
+                {/*=== Testimonial Item ===*/}
+
+                {TestimonialData.map((item, index) => (
+                  <div className="gw-testimonial-item">
+                    <div className="testimonial-inner-content">
+                      <div className="quote-rating-box">
+                        <div className="icon">
+                          <img
+                            src="assets/images/testimonial/quote.png"
+                            alt="quote icon"
+                          />
+                        </div>
+                        <div className="ratings-box">
+                          <h4 className="darkblue-text">
+                            {item.qualityServices}
+                          </h4>
+                          <ul className="ratings">
+                            <li>
+                              <i className="fas fa-star" />
+                            </li>
+                            <li>
+                              <i className="fas fa-star" />
+                            </li>
+                            <li>
+                              <i className="fas fa-star" />
+                            </li>
+                            <li>
+                              <i className="fas fa-star" />
+                            </li>
+                            <li>
+                              <i className="fas fa-star" />
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <p className="darkblue-text">{item.quote}</p>
+                      <div className="author-thumb-title">
+                        <div className="author-thumb">
+                          <img src={item.image} alt="Author Image" />
+                        </div>
+                        <div className="author-title">
+                          <h3 className="title darkblue-text">{item.name}</h3>
+                          <p className="position darkblue-text">
+                            {item.position}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </Slider>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== End Testimonial Section ======*/}
       {/*====== Start Activity Section ======*/}
       <section className="activity-section">
         <div className="activity-wrapper-bgc text-white">
@@ -474,7 +617,7 @@ const Index = () => {
               <div className="col-xl-7">
                 <div className="section-title text-center mb-50 wow fadeInDown">
                   <span className="sub-title">Popular Activity</span>
-                  <h2 className="blue-text">Talk to an Expert</h2>
+                  <h2 className="darkblue-text">Talk to an Expert</h2>
                 </div>
               </div>
             </div>

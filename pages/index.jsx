@@ -468,7 +468,7 @@ const Index = () => {
       {/*====== End CTA Section ======*/}
       {/*====== Start Activity Section ======*/}
       <section className="activity-section">
-        <div className="activity-wrapper-bgc  text-white black-bg">
+        <div className="activity-wrapper-bgc text-white">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-xl-7">
@@ -478,7 +478,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <p className="col-xl-12 orange-text">
+            <p className="col-xl-12 black-text">
               Discover the best ways to experience the beauty of Kyrgyzstan.
               From breathtaking hikes in the Tian Shan mountains to horseback
               riding across wide valleys and camping under starry skies — every
@@ -568,13 +568,13 @@ const Index = () => {
               <div className="col-lg-3 col-sm-6">
                 {/*=== Social Box ===*/}
                 <div className="social-box mb-40 float-lg-end">
-                  <ul className="social-link">
+                  <ul className="social-link ">
                     <li className="m-2">
                       <a href="https://wa.link/dwvf6z">
                         <i className="fab fa-whatsapp" />
                       </a>
                     </li>
-                    <li>
+                    <li className="m-2">
                       <a href="https://www.instagram.com/almastravel.kg?igsh=a3F1YmF2OHZ2bnF5">
                         <i className="fab fa-instagram" />
                       </a>

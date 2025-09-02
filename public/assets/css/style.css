@@ -5689,8 +5689,8 @@ form.comment-form .form_control:focus {
   color: #e1e1e1;
 }
 .black-bg .footer-top .social-box ul.social-link li a {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #b1b6b3;
+  background-color: #f7921e;
+  color: #fff;
 }
 .black-bg .single-info-item .info p {
   color: #e1e1e1;
@@ -6104,4 +6104,7 @@ ul.slick-dots li.slick-active button {
 }
 .orange-text {
   color: #f7921e !important;
+}
+.black-text {
+  color: #030c25 !important;
 }

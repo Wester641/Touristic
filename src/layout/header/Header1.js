@@ -1,9 +1,17 @@
 import Link from "next/link";
 import Menu from "../Menu";
+import { useState } from "react";
+import PopupLinks from "@/src/components/PopupLinks";
 
 const Header1 = () => {
+  const [close, setClose] = useState(false);
+  const handleClose = () => {
+    setClose(!close);
+  };
   return (
     <header className="header-area header-one transparent-header">
+      {close && <PopupLinks close={handleClose} />}
+
       {/*====== Header Navigation ======*/}
       <div className="header-navigation navigation-white">
         <div className="nav-overlay" />
@@ -55,23 +63,23 @@ const Header1 = () => {
               <Menu />
               {/*====== Menu Button ======*/}
               <div className="menu-button mt-40 d-xl-none">
-                <Link legacyBehavior href="/">
-                  <a className="main-btn secondary-btn">
-                    Book Now
-                    <i className="fas fa-paper-plane" />
-                  </a>
-                </Link>
+                {/* <Link legacyBehavior href="/"> */}
+                <a className="main-btn secondary-btn" onClick={handleClose}>
+                  Book Now
+                  <i className="fas fa-paper-plane" />
+                </a>
+                {/* </Link> */}
               </div>
             </div>
             {/*====== Nav Right Item ======*/}
             <div className="nav-right-item">
               <div className="menu-button d-xl-block d-none">
-                <Link legacyBehavior href="/">
-                  <a className="main-btn primary-btn">
-                    Book Now
-                    <i className="fas fa-paper-plane" />
-                  </a>
-                </Link>
+                {/* <Link legacyBehavior href="/"> */}
+                <a className="main-btn primary-btn" onClick={handleClose}>
+                  Book Now
+                  <i className="fas fa-paper-plane" />
+                </a>
+                {/* </Link> */}
               </div>
               <div className="navbar-toggler">
                 <span />

@@ -1,5 +1,7 @@
 import React from "react";
 
+const textMessage = "Example text!";
+
 function PopupLinks({ close }) {
   return (
     <div>
@@ -20,13 +22,15 @@ function PopupLinks({ close }) {
               </div>
             </p>
             <ul className="popup-links">
-              <a href="https://wa.me/message/F7BUBQR4EQ6CB1">
+              <a
+                href={`https://wa.me/message/F7BUBQR4EQ6CB1?text=${textMessage}`}
+              >
                 <li className="popup-link">
                   <i className="fab fa-whatsapp"></i>
                   WhatsApp
                 </li>
               </a>
-              <a href="https://t.me/zakharhhh">
+              <a href={`https://t.me/zakharhhh?text=${textMessage}`}>
                 <li className="popup-link">
                   <i className="fab fa-telegram"></i>
                   Telegram

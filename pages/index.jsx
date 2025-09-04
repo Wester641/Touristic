@@ -97,56 +97,44 @@ const ServiceTypes = [
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    price: "93.65",
     image: "assets/images/place/place-4.jpg",
     link: "/",
-    days: "5",
   },
 
   {
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    price: "93.65",
     image: "assets/images/place/place-3.jpg",
     link: "/",
-    days: "5",
   },
   {
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    price: "93.65",
     image: "assets/images/place/place-4.jpg",
     link: "/",
-    days: "5",
   },
   {
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    price: "93.65",
     image: "assets/images/place/place-2.jpg",
     link: "/",
-    days: "5",
   },
   {
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    price: "93.65",
     image: "assets/images/place/place-3.jpg",
     link: "/",
-    days: "5",
   },
   {
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    price: "93.65",
     image: "assets/images/place/place-4.jpg",
     link: "/",
-    days: "5",
   },
 ];
 
@@ -369,10 +357,10 @@ const Index = () => {
                   </div>
                   <h3 className="title">{service.title}</h3>
                   <p>{service.description}</p>
-                  <a href={service.link} className="main-btn filled-btn">
+                  {/* <a href={service.link} className="main-btn filled-btn">
                     Check Now
                     <i className="fas fa-paper-plane" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             ))}
@@ -380,57 +368,7 @@ const Index = () => {
         </div>
       </section>
       {/*====== End Activity Section ======*/}
-      {/*====== Start Places Section ======*/}
-      <section className="places-section pb-100">
-        <div className="container">
-          <div className="row justify-content-center">
-            {ServiceTypes.map((serviceType) => (
-              <div className="col-xl-4 col-md-6 col-sm-12 places-column">
-                {/*=== Single Place Item ===*/}
-                <div className="single-place-item mb-60 wow fadeInUp">
-                  <div className="place-img">
-                    <img src={serviceType.image} alt="Place Image" />
-                  </div>
-                  <div className="place-content">
-                    <div className="info">
-                      <h4 className="title darkblue-text">
-                        <Link legacyBehavior href="/">
-                          <a>{serviceType.title}</a>
-                        </Link>
-                      </h4>
-                      <p className="location">
-                        <i className="far fa-map-marker-alt" />
-                        {serviceType.location}
-                      </p>
-                      <p className="price">
-                        <i className="fas fa-usd-circle" />
-                        Price
-                        <span className="currency"> </span> {serviceType.price}
-                      </p>
-                      <div className="meta">
-                        <span className="">
-                          <i className="far fa-clock" />
-                          {serviceType.days} Days
-                        </span>
-                        <span></span>
-                        <span className="darkblue-text">
-                          <Link legacyBehavior href="/">
-                            <a>
-                              Details
-                              <i className="far fa-long-arrow-right" />
-                            </a>
-                          </Link>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-      {/*====== End Places Section ======*/}
+
       {/*====== Start CTA Section ======*/}
       <section
         className="cta-bg overlay bg_cover pt-150 pb-150"
@@ -467,6 +405,108 @@ const Index = () => {
         </div>
       </section>
       {/*====== End CTA Section ======*/}
+      {/*====== Start What We Section ======*/}
+      <section className="we-section pt-100 pb-50">
+        <div className="container">
+          <div className="row align-items-xl-center">
+            <div className="col-xl-6">
+              <div className="we-content-box mb-10 wow fadeInLeft">
+                <div className="section-title mb-30">
+                  <span className="sub-title">Who We Are</span>
+                  <h2>Great Opportunity For Adventure &amp; Travels</h2>
+                </div>
+                <div className="features-list_one">
+                  <div className="single-features-list mb-40">
+                    <div className="icon-inner d-flex align-items-center">
+                      <div className="icon-check">
+                        <i className="fas fa-badge-check" />
+                      </div>
+                      <div className="icon">
+                        <i className="flaticon-helmet" />
+                      </div>
+                    </div>
+                    <div className="content">
+                      <h4>Safety First Always</h4>
+                      <p>
+                        Your safety is our top priority. Professional guides,
+                        carefully planned routes, and attention to detail ensure
+                        a worry-free experience.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="single-features-list mb-40">
+                    <div className="icon-inner d-flex align-items-center">
+                      <div className="icon-check">
+                        <i className="fas fa-badge-check" />
+                      </div>
+                      <div className="icon">
+                        <i className="flaticon-best-price" />
+                      </div>
+                    </div>
+                    <div className="content">
+                      <h4>Low Price &amp; Friendly</h4>
+                      <p>
+                        Travel doesn’t have to be expensive. We offer affordable
+                        packages and friendly service so everyone can enjoy
+                        their dream trip.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="single-features-list mb-40">
+                    <div className="icon-inner d-flex align-items-center">
+                      <div className="icon-check">
+                        <i className="fas fa-badge-check" />
+                      </div>
+                      <div className="icon">
+                        <i className="flaticon-travel" />
+                      </div>
+                    </div>
+                    <div className="content">
+                      <h4>Trusted Travel Guide</h4>
+                      <p>
+                        Count on us to make your journey effortless and
+                        memorable. Our experienced guides and well-organized
+                        tours guarantee you’ll enjoy every moment.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-6">
+              <div className="we-two_image-box mb-20">
+                <div className="row align-items-end">
+                  <div className="col-md-6">
+                    <div className="we-image mb-30 wow fadeInLeft">
+                      <img
+                        src="assets/images/gallery/we-3.jpg"
+                        alt="we Image"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="we-image mb-30 wow fadeInRight">
+                      <img
+                        src="assets/images/gallery/we-4.jpg"
+                        alt="we Image"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-12">
+                    <div className="we-image mb-30 pr-lg-30 text-md-end wow fadeInDown">
+                      <img
+                        src="assets/images/gallery/we-5.jpg"
+                        alt="we Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== End What We Section ======*/}
       {/*====== Start Fact Section ======*/}
       <section className="fact-section pt-100">
         <div className="container">
@@ -523,92 +563,71 @@ const Index = () => {
         </div>
       </section>
       {/*====== End Fact Section ======*/}
-      {/*====== Start Testimonial Section ======*/}
+      {/*====== Start Places Section ======*/}
       <section className="testimonial-section pt-60">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8">
               {/*=== Section Title ===*/}
               <div className="section-title text-center mb-50 wow fadeInDown">
-                <span className="sub-title">Testimonials</span>
-                <h2 className="darkblue-text">
-                  What Our Traveler Say About Our Tour Services
-                </h2>
+                <span className="sub-title">Services</span>
+                <h2 className="darkblue-text">Our Services</h2>
               </div>
             </div>
           </div>
-          <div className="row align-items-xl-center">
-            <div className="col-xl-5 col-lg-12 order-2 order-xl-1">
-              {/*=== Testimonial Image ===*/}
-              <div className="testimonial-one_image-box mb-40 wow fadeInLeft">
-                <img
-                  src="assets/images/testimonial/testimonial-1.jpg"
-                  alt="Testimonial Image"
-                />
-              </div>
-            </div>
-            <div className="col-xl-7 col-lg-12 order-1 order-xl-2">
-              {/*=== Testimonial Slider ===*/}
-              <Slider
-                {...testimonialSliderOne}
-                className="testimonial-slider-one pl-lg-55 mb-40 wow fadeInRight"
-              >
-                {/*=== Testimonial Item ===*/}
-
-                {TestimonialData.map((item, index) => (
-                  <div className="gw-testimonial-item">
-                    <div className="testimonial-inner-content">
-                      <div className="quote-rating-box">
-                        <div className="icon">
-                          <img
-                            src="assets/images/testimonial/quote.png"
-                            alt="quote icon"
-                          />
-                        </div>
-                        <div className="ratings-box">
-                          <h4 className="darkblue-text">
-                            {item.qualityServices}
-                          </h4>
-                          <ul className="ratings">
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                        </div>
+          <section className="places-section ">
+            <div className="container">
+              <div className="row justify-content-center">
+                {ServiceTypes.map((serviceType) => (
+                  <div className="col-xl-4 col-md-6 col-sm-12 places-column">
+                    {/*=== Single Place Item ===*/}
+                    <div className="single-place-item mb-60 wow fadeInUp">
+                      <div className="place-img">
+                        <img src={serviceType.image} alt="Place Image" />
                       </div>
-                      <p className="darkblue-text">{item.quote}</p>
-                      <div className="author-thumb-title">
-                        <div className="author-thumb">
-                          <img src={item.image} alt="Author Image" />
-                        </div>
-                        <div className="author-title">
-                          <h3 className="title darkblue-text">{item.name}</h3>
-                          <p className="position darkblue-text">
-                            {item.position}
+                      <div className="place-content">
+                        <div className="info">
+                          <h4 className="title darkblue-text">
+                            <Link legacyBehavior href="/">
+                              <a>{serviceType.title}</a>
+                            </Link>
+                          </h4>
+                          <p className="location">
+                            <i className="far fa-map-marker-alt" />
+                            {serviceType.location}
                           </p>
+                          {/* <p className="price">
+                            <i className="fas fa-usd-circle" />
+                            Price
+                            <span className="currency"> </span>{" "}
+                            {serviceType.price}
+                          </p> */}
+                          {/* <div className="meta">
+                            <span className="">
+                              <i className="far fa-clock" />
+                              {serviceType.days} Days
+                            </span>
+                            <span></span>
+                            <span className="darkblue-text">
+                              <Link legacyBehavior href="/">
+                                <a>
+                                  Details
+                                  <i className="far fa-long-arrow-right" />
+                                </a>
+                              </Link>
+                            </span>
+                          </div> */}
                         </div>
                       </div>
                     </div>
                   </div>
                 ))}
-              </Slider>
+              </div>
             </div>
-          </div>
+          </section>
         </div>
       </section>
-      {/*====== End Testimonial Section ======*/}
+      {/*====== End Places Section ======*/}
       {/*====== Start Activity Section ======*/}
       <section className="activity-section">
         <div className="activity-wrapper-bgc text-white">

@@ -1,6 +1,13 @@
 import Link from "next/link";
 import Menu from "../Menu";
+import { useState } from "react";
+import PopupLinks from "@/src/components/PopupLinks";
+
 const DefaultHeader = () => {
+  const [close, setClose] = useState(false);
+  const handleClose = () => {
+    setClose(!close);
+  };
   return (
     <header className="header-area header-three">
       {/*====== Header Top Bar ======*/}
@@ -121,7 +128,7 @@ const DefaultHeader = () => {
               <div className="menu-button mt-40 d-xl-none">
                 <Link legacyBehavior href="/">
                   <a className="main-btn secondary-btn">
-                    Book Now
+                    Book Nowsss
                     <i className="fas fa-paper-plane" />
                   </a>
                 </Link>
@@ -138,7 +145,7 @@ const DefaultHeader = () => {
               <div className="menu-button d-xl-block d-none">
                 <Link legacyBehavior href="/">
                   <a className="main-btn primary-btn">
-                    Book Now
+                    Book Nosw
                     <i className="fas fa-paper-plane" />
                   </a>
                 </Link>

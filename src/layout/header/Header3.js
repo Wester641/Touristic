@@ -10,7 +10,7 @@ const Header3 = () => {
             <div className="col-xl-3 d-none d-xl-block">
               {/*====== Site Branding ======*/}
               <div className="site-brading">
-                <Link legacyBehavior href="/index-3">
+                <Link legacyBehavior href="/">
                   <a className="brand-logo">
                     <img src="assets/images/logo/logo-black.png" alt="Logo" />
                   </a>
@@ -79,7 +79,7 @@ const Header3 = () => {
           <div className="primary-menu black-bg">
             {/*====== Site Branding ======*/}
             <div className="site-brading d-block d-xl-none">
-              <Link legacyBehavior href="/index-3">
+              <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img src="assets/images/logo/logo-white.png" alt="Logo" />
                 </a>

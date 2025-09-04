@@ -5,6 +5,7 @@ import VideoPopup from "../components/VideoPopup";
 import { animation } from "../utils";
 import Footer from "./Footer";
 import Header from "./header/Index";
+
 const Layout = ({ header, children, footerBG, noFooter, extraClass }) => {
   useEffect(() => {
     niceSelect();

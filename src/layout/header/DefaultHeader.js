@@ -36,7 +36,7 @@ const DefaultHeader = () => {
                         </div>
                         <div className="info">
                           <span className="title">Office Address</span>
-                          <h5>583 Main Street, USA</h5>
+                          <h5>Ayni 85, Bishkek, Kyrgyzstan</h5>
                         </div>
                       </div>
                     </div>
@@ -50,8 +50,8 @@ const DefaultHeader = () => {
                         <div className="info">
                           <span className="title">Email Address</span>
                           <h5>
-                            <a href="mailto:support@gmail.com">
-                              support@gmail.com
+                            <a href="mailto:almas.travels@hotmail.com">
+                              Almas.travels@hotmail.com
                             </a>
                           </h5>
                         </div>
@@ -67,7 +67,7 @@ const DefaultHeader = () => {
                         <div className="info">
                           <span className="title">Drop a Line</span>
                           <h5>
-                            <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                            <a href="tel:+996555551340">+996 (555) 55 13 40</a>
                           </h5>
                         </div>
                       </div>

@@ -17,11 +17,57 @@ const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
 
+const travelServices = [
+  { title: "Individual, group & family tour arrangements" },
+  { title: "City & regional sightseeing in Kyrgyzstan" },
+  { title: "Hunting, photography & outdoor tours" },
+  { title: "Hotel & yurt camp bookings at best rates" },
+  { title: "Transfers, transport & professional guides" },
+  { title: "VIP travel & shopping trips" },
+  { title: "Visa, insurance & legal support" },
+];
+
+// const travelServices = [
+//   // Services
+//   { title: "Tour arrangements for individuals, groups, and families" },
+//   { title: "Regional and city sightseeing tours in Kyrgyzstan" },
+//   { title: "Hunting tours" },
+//   { title: "Hotel reservations in Kyrgyzstan at competitive rates" },
+//   { title: "Accommodation bookings: hotels, guesthouses, and yurt camps" },
+//   { title: "Transfers and transportation services" },
+//   { title: "Male and female professional guide-translators" },
+//   { title: "VIP travel services" },
+//   { title: "Shopping trips" },
+//   { title: "Photography tours" },
+//   { title: "Picnic and outdoor tours" },
+//   { title: "Visa support services" },
+//   { title: "Travel insurance arrangements" },
+//   { title: "Legal assistance" },
+
+//   // Tours
+//   { title: "Chon Kemin tour" },
+//   { title: "Kegety tour" },
+//   { title: "Bishkek city tour" },
+//   { title: "Shopping tour" },
+//   { title: "Ala Archa NP tour" },
+//   { title: "Alamedin Gorge tour" },
+//   { title: "Chunkurchak tour" },
+//   { title: "Karakol Gorge tour" },
+//   { title: "Suusamyr tour" },
+//   { title: "Jeti Oguz tour" },
+//   { title: "Kyrchyn tour" },
+//   { title: "Chon Ak Suu tour" },
+//   { title: "Fairytale Canyon tour" },
+//   { title: "Song Kol tour" },
+//   { title: "Suusamyr tour" },
+// ];
+
 const services = [
   {
     title: "RV Caravan Trailer",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
-    image: "assets/images/place/place-1.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.08.44_v4ptfp.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -30,7 +76,8 @@ const services = [
   {
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
-    image: "assets/images/place/place-2.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.08.48_nyhizj.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -39,7 +86,8 @@ const services = [
   {
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
-    image: "assets/images/place/place-3.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.08.41_zoysgd.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -48,7 +96,8 @@ const services = [
   {
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
-    image: "assets/images/place/place-4.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.09.21_moe6s9.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -57,7 +106,8 @@ const services = [
   {
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
-    image: "assets/images/place/place-4.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002290/2025-09-04_22.09.15_iy07rh.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -66,7 +116,8 @@ const services = [
   {
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
-    image: "assets/images/place/place-4.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002293/2025-09-04_22.09.57_isvnbw.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -75,7 +126,8 @@ const services = [
   {
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
-    image: "assets/images/place/place-4.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1753868656/cld-sample-2.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -84,7 +136,8 @@ const services = [
   {
     title: "Lenin Peak Base Camp Trek",
     description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
-    image: "assets/images/place/place-4.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -97,7 +150,8 @@ const ServiceTypes = [
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    image: "assets/images/place/place-4.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002295/2025-09-04_22.10.25_vni9qh.jpg",
     link: "/",
   },
 
@@ -105,35 +159,40 @@ const ServiceTypes = [
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    image: "assets/images/place/place-3.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002295/2025-09-04_22.10.19_ebzoch.jpg",
     link: "/",
   },
   {
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    image: "assets/images/place/place-4.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002294/2025-09-04_22.10.15_xz5rq4.jpg",
     link: "/",
   },
   {
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    image: "assets/images/place/place-2.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002294/2025-09-04_22.10.11_oktipw.jpg",
     link: "/",
   },
   {
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    image: "assets/images/place/place-3.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.08.56_quhrfu.jpg",
     link: "/",
   },
   {
     title: "Man and Woman Walks on Dock",
     description: "Ala-Archa",
     location: "Ala-Archa",
-    image: "assets/images/place/place-4.jpg",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
     link: "/",
   },
 ];
@@ -158,7 +217,8 @@ const Index = () => {
               <div
                 className="image-layer bg_cover"
                 style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-4.jpg)",
+                  backgroundImage:
+                    "url(https://res.cloudinary.com/dmdmkphey/image/upload/v1757002295/2025-09-04_22.10.22_njl08q.jpg)",
                 }}
               />
               <div className="container-fluid">
@@ -192,7 +252,8 @@ const Index = () => {
               <div
                 className="image-layer bg_cover"
                 style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-4.jpg)",
+                  backgroundImage:
+                    "url(https://res.cloudinary.com/dmdmkphey/image/upload/v1757002295/2025-09-04_22.10.19_ebzoch.jpg)",
                 }}
               />
               <div className="container-fluid">
@@ -226,7 +287,8 @@ const Index = () => {
               <div
                 className="image-layer bg_cover"
                 style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-4.jpg)",
+                  backgroundImage:
+                    "url(https://res.cloudinary.com/dmdmkphey/image/upload/v1757002293/2025-09-04_22.10.01_bkwwlj.jpg)",
                 }}
               />
               <div className="container-fluid">
@@ -479,7 +541,7 @@ const Index = () => {
                   <div className="col-md-6">
                     <div className="we-image mb-30 wow fadeInLeft">
                       <img
-                        src="assets/images/gallery/we-3.jpg"
+                        src="https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.08.28_zfaikh.jpg"
                         alt="we Image"
                       />
                     </div>
@@ -487,7 +549,7 @@ const Index = () => {
                   <div className="col-md-6">
                     <div className="we-image mb-30 wow fadeInRight">
                       <img
-                        src="assets/images/gallery/we-4.jpg"
+                        src="https://res.cloudinary.com/dmdmkphey/image/upload/v1757002289/2025-09-04_22.09.12_oz6nuk.jpg"
                         alt="we Image"
                       />
                     </div>
@@ -495,7 +557,7 @@ const Index = () => {
                   <div className="col-md-12">
                     <div className="we-image mb-30 pr-lg-30 text-md-end wow fadeInDown">
                       <img
-                        src="assets/images/gallery/we-5.jpg"
+                        src="https://res.cloudinary.com/dmdmkphey/image/upload/v1757002289/2025-09-04_22.08.16_tyew8c.jpg"
                         alt="we Image"
                       />
                     </div>
@@ -753,11 +815,14 @@ const Index = () => {
               <div className="col-lg-3 col-md-6">
                 {/*=== Footer Widget ===*/}
                 <div className="footer-widget about-company-widget mb-40 wow fadeInUp">
-                  <h4 className="widget-title">About</h4>
+                  <h4 className="widget-title">About Us — Almas Travel</h4>
                   <div className="footer-content">
                     <p>
-                      To take trivial example which us ever undertakes laborious
-                      physica exercise except obsome
+                      At Almas Travel, we believe that every journey should be
+                      more than just a trip — it should be an experience to
+                      remember. Founded with a passion for discovery and
+                      adventure, we create travel opportunities that inspire,
+                      connect, and excite.
                     </p>
                     <a href="#" className="footer-logo">
                       <img
@@ -773,24 +838,14 @@ const Index = () => {
                 <div className="footer-widget service-nav-widget mb-40 pl-lg-70 wow fadeInDown">
                   <h4 className="widget-title">Services</h4>
                   <div className="footer-content">
-                    <ul className="footer-widget-nav">
-                      <li>
-                        <a href="#">Caravan Soler Tent</a>
-                      </li>
-                      <li>
-                        <a href="#">Family Tent Camping</a>
-                      </li>
-                      <li>
-                        <a href="#">Classic Tent Camping</a>
-                      </li>
-                      <li>
-                        <a href="#">Wild Tent Camping</a>
-                      </li>
-                      <li>
-                        <a href="#">Small Cabin Wood</a>
-                      </li>
-                    </ul>
-                    <ul className="footer-widget-nav">
+                    {travelServices.map((service) => (
+                      <ul className="footer-widget-nav">
+                        <li>
+                          <a href="#">{service.title}</a>
+                        </li>
+                      </ul>
+                    ))}
+                    {/* <ul className="footer-widget-nav">
                       <li>
                         <a href="#">Need a Career ?</a>
                       </li>
@@ -803,7 +858,7 @@ const Index = () => {
                       <li>
                         <a href="#">Meet Our teams</a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -822,6 +877,7 @@ const Index = () => {
                           <i className="far fa-paper-plane" />
                         </label>
                         <input
+                          disabled
                           type="email"
                           className="form_control"
                           placeholder="Email Address"
@@ -842,7 +898,7 @@ const Index = () => {
                 {/*=== Footer Text ===*/}
                 <div className="footer-text">
                   <p>
-                    Copy@ 2023{" "}
+                    © 2025{" "}
                     <span style={{ color: "#F7921E" }}>Almas Travel</span>, All
                     Right Reserved
                   </p>
@@ -853,13 +909,10 @@ const Index = () => {
                 <div className="footer-nav float-lg-end">
                   <ul>
                     <li>
-                      <a href="#">Setting &amp; privacy</a>
+                      <a href="/privacy-policy">Privacy Policy</a>
                     </li>
                     <li>
-                      <a href="#">Faqs</a>
-                    </li>
-                    <li>
-                      <a href="#">Support</a>
+                      <a href="/terms-and-conditions">Terms & Conditions</a>
                     </li>
                   </ul>
                 </div>

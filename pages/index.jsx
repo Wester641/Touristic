@@ -144,20 +144,10 @@ const services = [
     days: "5",
   },
   {
-    title: "Suusamyr tour",
-    description: "Suusamyr tour",
-    image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
-    link: "/",
-    rate: "4.9",
-    meta: [{}],
-    days: "5",
-  },
-  {
     title: "Jeti Oguz tour",
     description: "Jeti Oguz tour",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050493/jeti-oguz_reaips.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -167,7 +157,7 @@ const services = [
     title: "Kyrchyn tour",
     description: "Kyrchyn tour",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050772/2016-08-12_%D0%92_%D1%83%D1%89%D0%B5%D0%BB%D1%8C%D0%B5_%D0%9A%D1%8B%D1%80%D1%87%D1%8B%D0%BD_%D0%B2_%D1%80%D0%B0%D0%BC%D0%BA%D0%B0%D1%85_%D0%92%D0%98%D0%9A_%D0%BE%D1%82%D0%BA%D1%80%D0%BE%D0%B5%D1%82%D1%81%D1%8F_%D1%8D%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%BA_%D0%9A%D1%8B%D1%80%D0%B3%D1%8B%D0%B7_%D0%B0%D0%B8%CC%86%D1%8B%D0%BB%D1%8B_%D0%B8_PdSPTLE_tirkqm.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -177,7 +167,7 @@ const services = [
     title: "Chon Ak Suu tour",
     description: "Chon Ak Suu tour",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050715/c_anton_watman_1_1_pvnmzw.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -187,7 +177,7 @@ const services = [
     title: "Fairytale canyon tour",
     description: "Fairytale canyon tour",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050663/A-Quick-Guide-to-Visiting-Fairytale-Skazka-Canyon-Kyrgyzstan_qj1xbg.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -197,7 +187,7 @@ const services = [
     title: "Song Kol tour",
     description: "Song Kol tour",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050544/DSC_7006_aizkjg.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -207,7 +197,7 @@ const services = [
     title: "Suusamyr",
     description: "Suusamyr",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050906/febc0977-eade-4a90-8cc9-56862555e467-istock-1027045006_addfyp.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -270,7 +260,7 @@ const ServiceTypes = [
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050043/07_ucbcpk.jpg",
     link: "/",
   },
   {
@@ -278,7 +268,7 @@ const ServiceTypes = [
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757049962/istockphoto-512155303-612x612_xlwoae.jpg",
     link: "/",
   },
   {
@@ -286,7 +276,7 @@ const ServiceTypes = [
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757049884/exploremarmaris-transfer_excq8r.jpg",
     link: "/",
   },
   {
@@ -294,7 +284,7 @@ const ServiceTypes = [
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050223/P1190573_yjskzt.jpg",
     link: "/",
   },
   {
@@ -302,7 +292,7 @@ const ServiceTypes = [
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050121/travel-photography_ryhq6k.avif",
     link: "/",
   },
   {
@@ -318,7 +308,7 @@ const ServiceTypes = [
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050361/h1-travel-delay-insurance-for-business-trips-1715755414_irsyin.jpg",
     link: "/",
   },
   {
@@ -326,7 +316,7 @@ const ServiceTypes = [
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050296/row79_hero_h7l7gy.jpg",
     link: "/",
   },
 ];

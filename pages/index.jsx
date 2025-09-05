@@ -64,8 +64,8 @@ const travelServices = [
 
 const services = [
   {
-    title: "RV Caravan Trailer",
-    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    title: "Chon Kemin tour",
+    description: "Chon Kemin tour",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.08.44_v4ptfp.jpg",
     link: "/",
@@ -74,8 +74,8 @@ const services = [
     days: "5",
   },
   {
-    title: "Lenin Peak Base Camp Trek",
-    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    title: "Kegety tour",
+    description: "Kegety tour",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.08.48_nyhizj.jpg",
     link: "/",
@@ -84,8 +84,8 @@ const services = [
     days: "5",
   },
   {
-    title: "Lenin Peak Base Camp Trek",
-    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    title: "Bishkek city tour",
+    description: "Bishkek city tour",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.08.41_zoysgd.jpg",
     link: "/",
@@ -94,8 +94,8 @@ const services = [
     days: "5",
   },
   {
-    title: "Lenin Peak Base Camp Trek",
-    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    title: "Shopping tour",
+    description: "Shopping tour",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.09.21_moe6s9.jpg",
     link: "/",
@@ -104,8 +104,8 @@ const services = [
     days: "5",
   },
   {
-    title: "Lenin Peak Base Camp Trek",
-    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    title: "Ala Archa NP tour",
+    description: "Ala Archa NP tour",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002290/2025-09-04_22.09.15_iy07rh.jpg",
     link: "/",
@@ -114,8 +114,8 @@ const services = [
     days: "5",
   },
   {
-    title: "Lenin Peak Base Camp Trek",
-    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    title: "Alamedin Gorge tour",
+    description: "Alamedin Gorge tour",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002293/2025-09-04_22.09.57_isvnbw.jpg",
     link: "/",
@@ -124,8 +124,8 @@ const services = [
     days: "5",
   },
   {
-    title: "Lenin Peak Base Camp Trek",
-    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    title: "Chunkurchak tour",
+    description: "Chunkurchak tour",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1753868656/cld-sample-2.jpg",
     link: "/",
@@ -134,8 +134,78 @@ const services = [
     days: "5",
   },
   {
-    title: "Lenin Peak Base Camp Trek",
-    description: "Kyrgyzstan - Tian Shan Mountains - 4 days",
+    title: "Karakol Gorge tour",
+    description: "Karakol Gorge tour",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+    link: "/",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Suusamyr tour",
+    description: "Suusamyr tour",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+    link: "/",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Jeti Oguz tour",
+    description: "Jeti Oguz tour",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+    link: "/",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Kyrchyn tour",
+    description: "Kyrchyn tour",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+    link: "/",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Chon Ak Suu tour",
+    description: "Chon Ak Suu tour",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+    link: "/",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Fairytale canyon tour",
+    description: "Fairytale canyon tour",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+    link: "/",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Song Kol tour",
+    description: "Song Kol tour",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
+    link: "/",
+    rate: "4.9",
+    meta: [{}],
+    days: "5",
+  },
+  {
+    title: "Suusamyr",
+    description: "Suusamyr",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
     link: "/",
@@ -147,7 +217,7 @@ const services = [
 
 const ServiceTypes = [
   {
-    title: "Man and Woman Walks on Dock",
+    title: "Tour arrangements for individuals, groups, and families",
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
@@ -156,7 +226,7 @@ const ServiceTypes = [
   },
 
   {
-    title: "Man and Woman Walks on Dock",
+    title: "Regional and city sightseeing tours in Kyrgyzstan",
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
@@ -164,7 +234,7 @@ const ServiceTypes = [
     link: "/",
   },
   {
-    title: "Man and Woman Walks on Dock",
+    title: "Hunting tours",
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
@@ -172,7 +242,7 @@ const ServiceTypes = [
     link: "/",
   },
   {
-    title: "Man and Woman Walks on Dock",
+    title: "Hotel reservations in Kyrgyzstan at competitive rates",
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
@@ -180,7 +250,15 @@ const ServiceTypes = [
     link: "/",
   },
   {
-    title: "Man and Woman Walks on Dock",
+    title: "Visa support services",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757048997/image_011_jlspuz.jpg",
+    link: "/",
+  },
+  {
+    title: "Accommodation bookings: hotels, guesthouses, and yurt camps",
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
@@ -188,7 +266,63 @@ const ServiceTypes = [
     link: "/",
   },
   {
-    title: "Man and Woman Walks on Dock",
+    title: "Transfers and transportation services",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+    link: "/",
+  },
+  {
+    title: "Male and female professional guide-translators",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+    link: "/",
+  },
+  {
+    title: "VIP travel services",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+    link: "/",
+  },
+  {
+    title: "Shopping trips",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+    link: "/",
+  },
+  {
+    title: "Photography tours",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+    link: "/",
+  },
+  {
+    title: "Picnic and outdoor tours",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+    link: "/",
+  },
+  {
+    title: "Travel insurance arrangements",
+    description: "Ala-Archa",
+    location: "Ala-Archa",
+    image:
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+    link: "/",
+  },
+  {
+    title: "Legal assistance",
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
@@ -364,9 +498,7 @@ const Index = () => {
               {/*====== Section Title ======*/}
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title ">Find Your Trip</span>
-                <h2 className="darkblue-text">
-                  Popular Kyrgyzstan Trekking and Hiking Tours
-                </h2>
+                <h2 className="darkblue-text">Popular Kyrgyzstan Tours</h2>
               </div>
             </div>
           </div>

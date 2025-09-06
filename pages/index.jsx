@@ -62,142 +62,62 @@ const travelServices = [
 //   { title: "Suusamyr tour" },
 // ];
 
-const services = [
+const popularTours = [
   {
-    title: "Chon Kemin tour",
-    description: "Chon Kemin tour",
+    title: "Adventure in Chon Kemin",
+    description:
+      "Explore the wild beauty of Chon Kemin Valley with its rivers, forests, and mountain views.",
+    location: "Chon Kemin",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.08.44_v4ptfp.jpg",
     link: "/",
-    rate: "4.9",
+    rate: "3.1",
     meta: [{}],
     days: "5",
   },
   {
-    title: "Kegety tour",
-    description: "Kegety tour",
+    title: "Kegety Gorge Escape",
+    description:
+      "A refreshing getaway into Kegety Gorge — waterfalls, alpine meadows, and fresh mountain air.",
+    location: "Kegety",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.08.48_nyhizj.jpg",
     link: "/",
-    rate: "4.9",
+    rate: "5",
     meta: [{}],
     days: "5",
   },
   {
-    title: "Bishkek city tour",
-    description: "Bishkek city tour",
+    title: "Discover Bishkek",
+    description:
+      "City vibes, local bazaars, Soviet architecture and green parks of Bishkek in one tour.",
+    location: "Bishkek",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.08.41_zoysgd.jpg",
     link: "/",
-    rate: "4.9",
+    rate: "4.2",
     meta: [{}],
     days: "5",
   },
   {
-    title: "Shopping tour",
-    description: "Shopping tour",
+    title: "Shopping in Bishkek",
+    description:
+      "Spend a day exploring bazaars and shopping centers for souvenirs and local treasures.",
+    location: "Bishkek",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002291/2025-09-04_22.09.21_moe6s9.jpg",
     link: "/",
-    rate: "4.9",
+    rate: "4.5",
     meta: [{}],
     days: "5",
   },
   {
-    title: "Ala Archa NP tour",
-    description: "Ala Archa NP tour",
+    title: "Ala Archa National Park",
+    description:
+      "Hike through dramatic gorges, snowy peaks, and pine forests just outside Bishkek.",
+    location: "Ala Archa",
     image:
       "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002290/2025-09-04_22.09.15_iy07rh.jpg",
-    link: "/",
-    rate: "4.9",
-    meta: [{}],
-    days: "5",
-  },
-  {
-    title: "Alamedin Gorge tour",
-    description: "Alamedin Gorge tour",
-    image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002293/2025-09-04_22.09.57_isvnbw.jpg",
-    link: "/",
-    rate: "4.9",
-    meta: [{}],
-    days: "5",
-  },
-  {
-    title: "Chunkurchak tour",
-    description: "Chunkurchak tour",
-    image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1753868656/cld-sample-2.jpg",
-    link: "/",
-    rate: "4.9",
-    meta: [{}],
-    days: "5",
-  },
-  {
-    title: "Karakol Gorge tour",
-    description: "Karakol Gorge tour",
-    image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.05_krwziy.jpg",
-    link: "/",
-    rate: "4.9",
-    meta: [{}],
-    days: "5",
-  },
-  {
-    title: "Jeti Oguz tour",
-    description: "Jeti Oguz tour",
-    image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050493/jeti-oguz_reaips.jpg",
-    link: "/",
-    rate: "4.9",
-    meta: [{}],
-    days: "5",
-  },
-  {
-    title: "Kyrchyn tour",
-    description: "Kyrchyn tour",
-    image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050772/2016-08-12_%D0%92_%D1%83%D1%89%D0%B5%D0%BB%D1%8C%D0%B5_%D0%9A%D1%8B%D1%80%D1%87%D1%8B%D0%BD_%D0%B2_%D1%80%D0%B0%D0%BC%D0%BA%D0%B0%D1%85_%D0%92%D0%98%D0%9A_%D0%BE%D1%82%D0%BA%D1%80%D0%BE%D0%B5%D1%82%D1%81%D1%8F_%D1%8D%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%BA_%D0%9A%D1%8B%D1%80%D0%B3%D1%8B%D0%B7_%D0%B0%D0%B8%CC%86%D1%8B%D0%BB%D1%8B_%D0%B8_PdSPTLE_tirkqm.jpg",
-    link: "/",
-    rate: "4.9",
-    meta: [{}],
-    days: "5",
-  },
-  {
-    title: "Chon Ak Suu tour",
-    description: "Chon Ak Suu tour",
-    image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050715/c_anton_watman_1_1_pvnmzw.jpg",
-    link: "/",
-    rate: "4.9",
-    meta: [{}],
-    days: "5",
-  },
-  {
-    title: "Fairytale canyon tour",
-    description: "Fairytale canyon tour",
-    image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050663/A-Quick-Guide-to-Visiting-Fairytale-Skazka-Canyon-Kyrgyzstan_qj1xbg.jpg",
-    link: "/",
-    rate: "4.9",
-    meta: [{}],
-    days: "5",
-  },
-  {
-    title: "Song Kol tour",
-    description: "Song Kol tour",
-    image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050544/DSC_7006_aizkjg.jpg",
-    link: "/",
-    rate: "4.9",
-    meta: [{}],
-    days: "5",
-  },
-  {
-    title: "Suusamyr",
-    description: "Suusamyr",
-    image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757050906/febc0977-eade-4a90-8cc9-56862555e467-istock-1027045006_addfyp.jpg",
     link: "/",
     rate: "4.9",
     meta: [{}],
@@ -228,7 +148,7 @@ const ServiceTypes = [
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002294/2025-09-04_22.10.15_xz5rq4.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757148646/GoldenEagle-Hunters_xzprrx.jpg",
     link: "/",
   },
   {
@@ -236,7 +156,7 @@ const ServiceTypes = [
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002294/2025-09-04_22.10.11_oktipw.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757148580/676832937_ogah5p.webp",
     link: "/",
   },
   {
@@ -300,7 +220,7 @@ const ServiceTypes = [
     description: "Ala-Archa",
     location: "Ala-Archa",
     image:
-      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757002292/2025-09-04_22.09.33_m2zajl.jpg",
+      "https://res.cloudinary.com/dmdmkphey/image/upload/v1757148509/Horse-Trek-Ines-8_jjjqke.jpg",
     link: "/",
   },
   {
@@ -333,16 +253,16 @@ const Index = () => {
       {/*====== Start Hero Section ======*/}
       <section className="hero-section">
         {/*=== Hero Wrapper ===*/}
-        <div className="hero-wrapper-two">
+        <div className="hero-wrapper-two ">
           {/*=== Hero Slider ===*/}
           <Slider {...home2Slider} className="hero-slider-two">
             {/*=== Single Slider ===*/}
-            <div className="single-slider">
+            <div className="single-slider min-height-vh">
               <div
                 className="image-layer bg_cover"
                 style={{
                   backgroundImage:
-                    "url(https://res.cloudinary.com/dmdmkphey/image/upload/v1757002295/2025-09-04_22.10.22_njl08q.jpg)",
+                    "url(https://res.cloudinary.com/dmdmkphey/image/upload/v1757050906/febc0977-eade-4a90-8cc9-56862555e467-istock-1027045006_addfyp.jpg)",
                 }}
               />
               <div className="container-fluid">
@@ -359,12 +279,12 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/">
+                        {/* <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             More
                             <i className="fas fa-paper-plane" />
                           </a>
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>
@@ -372,7 +292,7 @@ const Index = () => {
               </div>
             </div>
             {/*=== Single Slider ===*/}
-            <div className="single-slider">
+            <div className="single-slider min-height-vh">
               <div
                 className="image-layer bg_cover"
                 style={{
@@ -394,12 +314,12 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/">
+                        {/* <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             More
                             <i className="fas fa-paper-plane" />
                           </a>
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>
@@ -407,7 +327,7 @@ const Index = () => {
               </div>
             </div>
             {/*=== Single Slider ===*/}
-            <div className="single-slider">
+            <div className="single-slider min-height-vh">
               <div
                 className="image-layer bg_cover"
                 style={{
@@ -429,12 +349,12 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/">
+                        {/* <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             Explore More
                             <i className="fas fa-paper-plane" />
                           </a>
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>
@@ -442,7 +362,7 @@ const Index = () => {
               </div>
             </div>
             {/*=== Single Slider ===*/}
-            <div className="single-slider">
+            <div className="single-slider min-height-vh">
               <div
                 className="image-layer bg_cover"
                 style={{
@@ -463,12 +383,12 @@ const Index = () => {
                         data-animation="fadeInRight"
                         data-delay=".6s"
                       >
-                        <Link legacyBehavior href="/">
+                        {/* <Link legacyBehavior href="/">
                           <a className="main-btn primary-btn">
                             Explore More
                             <i className="fas fa-paper-plane" />
                           </a>
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </div>
@@ -487,7 +407,7 @@ const Index = () => {
             <div className="col-xl-7">
               {/*====== Section Title ======*/}
               <div className="section-title text-center mb-50 wow fadeInDown">
-                <span className="sub-title ">Find Your Trip</span>
+                <span className="sub-title ">Packages</span>
                 <h2 className="darkblue-text">Popular Kyrgyzstan Tours</h2>
               </div>
             </div>
@@ -505,7 +425,7 @@ const Index = () => {
             className="slider-active-3-item wow fadeInUp"
           >
             {/*====== Activity Item ======*/}
-            {services.map((service) => (
+            {popularTours.map((service) => (
               <div className="single-activity-item mb-40">
                 <div className="img-holder">
                   <img src={service.image} alt="Image" />
@@ -536,11 +456,15 @@ const Index = () => {
                     </ul>
                     <div className="rate">
                       <i className="fas fa-star" />
-                      4.9
+                      {service.rate}
                     </div>
                   </div>
-                  <h3 className="title">{service.title}</h3>
-                  <p>{service.description}</p>
+                  <h3 className="title darkblue-text">{service.title}</h3>
+                  <p className="darkblue-text">{service.description}</p>
+                  <p className="location darkblue-text">
+                    <i className="far fa-map-marker-alt orange-text" />{" "}
+                    <span className="darkblue-text">{service.location}</span>
+                  </p>
                   {/* <a href={service.link} className="main-btn filled-btn">
                     Check Now
                     <i className="fas fa-paper-plane" />
@@ -556,7 +480,10 @@ const Index = () => {
       {/*====== Start CTA Section ======*/}
       <section
         className="cta-bg overlay bg_cover pt-150 pb-150"
-        style={{ backgroundImage: "url(assets/images/bg/cta-bg2.jpg)" }}
+        style={{
+          backgroundImage:
+            "url(https://res.cloudinary.com/dmdmkphey/image/upload/v1757050544/DSC_7006_aizkjg.jpg)",
+        }}
       >
         <div className="container">
           <div className="row align-items-center">
@@ -566,12 +493,11 @@ const Index = () => {
                 <h2 className="mb-35">
                   Discover Untouched Nature in the Heart of Kyrgyz Mountains{" "}
                 </h2>
-                <Link legacyBehavior href="/">
-                  <a className="main-btn primary-btn">
-                    Check Availability
-                    <i className="far fa-paper-plane" />
-                  </a>
-                </Link>
+
+                <a className="main-btn primary-btn" onClick={handleClose}>
+                  Check Availability
+                  <i className="far fa-paper-plane darkblue-text" />
+                </a>
               </div>
             </div>
             <div className="col-xl-5 col-lg-4">
@@ -592,12 +518,14 @@ const Index = () => {
       {/*====== Start What We Section ======*/}
       <section className="we-section pt-100 pb-50">
         <div className="container">
-          <div className="row align-items-xl-center">
-            <div className="col-xl-6">
+          <div className="row align-items-xl-center darkblue-text">
+            <div className="col-xl-6 ">
               <div className="we-content-box mb-10 wow fadeInLeft">
-                <div className="section-title mb-30">
+                <div className="section-title">
                   <span className="sub-title">Who We Are</span>
-                  <h2>Great Opportunity For Adventure &amp; Travels</h2>
+                  <h2 className="mb-50 darkblue-text">
+                    Great Opportunity For Adventure &amp; Travels
+                  </h2>
                 </div>
                 <div className="features-list_one">
                   <div className="single-features-list mb-40">
@@ -610,7 +538,7 @@ const Index = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Safety First Always</h4>
+                      <h4 className="darkblue-text">Safety First Always</h4>
                       <p>
                         Your safety is our top priority. Professional guides,
                         carefully planned routes, and attention to detail ensure
@@ -628,7 +556,9 @@ const Index = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Low Price &amp; Friendly</h4>
+                      <h4 className="darkblue-text">
+                        Low Price &amp; Friendly
+                      </h4>
                       <p>
                         Travel doesn’t have to be expensive. We offer affordable
                         packages and friendly service so everyone can enjoy
@@ -646,7 +576,7 @@ const Index = () => {
                       </div>
                     </div>
                     <div className="content">
-                      <h4>Trusted Travel Guide</h4>
+                      <h4 className="darkblue-text">Trusted Travel Guide</h4>
                       <p>
                         Count on us to make your journey effortless and
                         memorable. Our experienced guides and well-organized
@@ -692,19 +622,23 @@ const Index = () => {
       </section>
       {/*====== End What We Section ======*/}
       {/*====== Start Fact Section ======*/}
-      <section className="fact-section pt-100">
+      <section className="fact-section">
         <div className="container">
           <div className="row">
+            <div className="section-title text-center mb-50 wow fadeInDown">
+              {/* <span className="sub-title">Services</span> */}
+              <h2 className="darkblue-text">Our Journey in Numbers</h2>
+            </div>
             <div className="col-lg-3 col-sm-6">
               {/*=== Counter Item ===*/}
               <div className="single-counter-item text-center mb-40 wow fadeInUp">
                 <div className="icon">
                   <i className="flaticon-journey" />
                 </div>
-                <h2 className="number">
-                  <Counter end={2390} />+
+                <h2 className="number darkblue-text">
+                  <Counter end={124} />+
                 </h2>
-                <p>Happy Traveler</p>
+                <p className="darkblue-text">Happy Traveler</p>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -713,10 +647,10 @@ const Index = () => {
                 <div className="icon">
                   <i className="flaticon-tent-1" />
                 </div>
-                <h2 className="number">
-                  <Counter end={768} />+
+                <h2 className="number darkblue-text">
+                  <Counter end={50} />+
                 </h2>
-                <p>Tent Sites</p>
+                <p className="darkblue-text">Tour Packages</p>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -725,10 +659,10 @@ const Index = () => {
                 <div className="icon">
                   <i className="flaticon-reviews" />
                 </div>
-                <h2 className="number">
+                <h2 className="number darkblue-text">
                   <Counter end={99.3} decimals={1} />%
                 </h2>
-                <p>Positive Reviews</p>
+                <p className="darkblue-text">Positive Reviews</p>
               </div>
             </div>
             <div className="col-lg-3 col-sm-6">
@@ -737,10 +671,10 @@ const Index = () => {
                 <div className="icon">
                   <i className="flaticon-award" />
                 </div>
-                <h2 className="number">
-                  <Counter end={12} />K
+                <h2 className="number darkblue-text">
+                  <Counter end={30} />+
                 </h2>
-                <p>Awards Winning</p>
+                <p className="darkblue-text">Awards & Recognitions</p>
               </div>
             </div>
           </div>
@@ -765,21 +699,19 @@ const Index = () => {
                 {ServiceTypes.map((serviceType) => (
                   <div className="col-xl-4 col-md-6 col-sm-12 places-column">
                     {/*=== Single Place Item ===*/}
-                    <div className="single-place-item mb-60 wow fadeInUp">
+                    <div className="single-place-item  wow fadeInUp">
                       <div className="place-img">
                         <img src={serviceType.image} alt="Place Image" />
                       </div>
                       <div className="place-content">
                         <div className="info">
                           <h4 className="title darkblue-text">
-                            <Link legacyBehavior href="/">
-                              <a>{serviceType.title}</a>
-                            </Link>
+                            {serviceType.title}
                           </h4>
-                          <p className="location">
+                          {/* <p className="location">
                             <i className="far fa-map-marker-alt" />
                             {serviceType.location}
-                          </p>
+                          </p> */}
                           {/* <p className="price">
                             <i className="fas fa-usd-circle" />
                             Price
@@ -815,16 +747,16 @@ const Index = () => {
       {/*====== Start Activity Section ======*/}
       <section className="activity-section">
         <div className="activity-wrapper-bgc text-white">
-          <div className="container">
+          <div className="container mb-100">
             <div className="row justify-content-center">
               <div className="col-xl-7">
                 <div className="section-title text-center mb-50 wow fadeInDown">
-                  <span className="sub-title">Popular Activity</span>
+                  <span className="sub-title">Contact</span>
                   <h2 className="darkblue-text">Talk to an Expert</h2>
                 </div>
               </div>
             </div>
-            <p className="col-xl-12 black-text">
+            <p className="col-xl-12 darkblue-text">
               Discover the best ways to experience the beauty of Kyrgyzstan.
               From breathtaking hikes in the Tian Shan mountains to horseback
               riding across wide valleys and camping under starry skies — every
@@ -916,7 +848,11 @@ const Index = () => {
                 <div className="social-box mb-40 float-lg-end">
                   <ul className="social-link ">
                     <li className="m-2">
-                      <a href="https://wa.link/dwvf6z">
+                      <a
+                        href="https://wa.me/996555551340?text=Hello%2C%20I%20want%20to%20book%20a%20tour!"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-whatsapp" />
                       </a>
                     </li>

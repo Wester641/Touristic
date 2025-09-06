@@ -79,6 +79,10 @@ h1 {
   color: #1c231f;
 }
 
+.min-height-vh {
+  min-height: 100vh;
+}
+
 .footer-copyright .footer-nav ul li a:hover,
 .service-nav-widget .footer-content .footer-widget-nav li a:hover,
 .footer-top .social-box ul.social-link li a,

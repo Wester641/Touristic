@@ -2215,6 +2215,8 @@ button {
 }
 .single-features-item-two .img-holder img {
   width: 100%;
+  min-height: 500px !important;
+  object-fit: cover !important;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2249,6 +2251,7 @@ button {
   -ms-flex-pack: center;
   justify-content: center;
 }
+
 .single-features-item-two .content h3.title {
   font-weight: 500;
 }

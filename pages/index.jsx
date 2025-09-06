@@ -399,7 +399,75 @@ const Index = () => {
         </div>
       </section>
       {/*====== End Hero Section ======*/}
-      {/*====== Start About Section ======*/}
+      {/*====== Start Features Section ======*/}
+      <section className="features-section pt-100">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-8">
+              {/*=== Section Title ===*/}
+              <div className="section-title text-center mb-45 wow fadeInDown">
+                <span className="sub-title">Destinations</span>
+                <h2>Must visit destinations to experience in Kyrgyzstan</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              {/*=== Features Image Item ===*/}
+              <div className="single-features-item-two mb-40 wow fadeInUp">
+                <div className="img-holder">
+                  <img
+                    src="https://res.cloudinary.com/dmdmkphey/image/upload/v1757156666/Bishkek_City_27s_business_center_hhv5rb.jpg"
+                    alt="Features Image"
+                  />
+                  <div className="item-overlay">
+                    <div className="content">
+                      <h3 className="title">Excursions around Bishkek city</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              {/*=== Features Image Item ===*/}
+              <div className="single-features-item-two mb-40 wow fadeInDown">
+                <div className="img-holder">
+                  <img
+                    src="https://res.cloudinary.com/dmdmkphey/image/upload/v1757156617/Issykkul_plyag_hbzu9z.jpg"
+                    alt="Features Image"
+                  />
+                  <div className="item-overlay">
+                    <div className="content">
+                      <h3 className="title">
+                        Excursions around Issyk Kul Lake
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-md-6 col-sm-12">
+              {/*=== Features Image Item ===*/}
+              <div className="single-features-item-two mb-40 wow fadeInUp">
+                <div className="img-holder">
+                  <img
+                    src="https://res.cloudinary.com/dmdmkphey/image/upload/v1757050772/2016-08-12_%D0%92_%D1%83%D1%89%D0%B5%D0%BB%D1%8C%D0%B5_%D0%9A%D1%8B%D1%80%D1%87%D1%8B%D0%BD_%D0%B2_%D1%80%D0%B0%D0%BC%D0%BA%D0%B0%D1%85_%D0%92%D0%98%D0%9A_%D0%BE%D1%82%D0%BA%D1%80%D0%BE%D0%B5%D1%82%D1%81%D1%8F_%D1%8D%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%BA_%D0%9A%D1%8B%D1%80%D0%B3%D1%8B%D0%B7_%D0%B0%D0%B8%CC%86%D1%8B%D0%BB%D1%8B_%D0%B8_PdSPTLE_tirkqm.jpg"
+                    alt="Features Image"
+                  />
+                  <div className="item-overlay">
+                    <div className="content">
+                      <h3 className="title">
+                        Excursions around other popular destinations
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== End Features Section ======*/}
       {/*====== Start Team Section ======*/}
       <section className="team-section pt-100 pb-70">
         <div className="container">
@@ -408,9 +476,7 @@ const Index = () => {
               {/*====== Section Title ======*/}
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title ">Packages</span>
-                <h2 className="darkblue-text">
-                  Must visit destinations to experience in Kyrgyzstan
-                </h2>
+                <h2 className="darkblue-text">Popular Packages</h2>
               </div>
             </div>
           </div>

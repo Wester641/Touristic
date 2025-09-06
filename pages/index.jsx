@@ -524,7 +524,7 @@ const Index = () => {
                 <div className="section-title">
                   <span className="sub-title">Who We Are</span>
                   <h2 className="mb-50 darkblue-text">
-                    Great Opportunity For Adventure &amp; Travels
+                    Welcome to Almas Travel
                   </h2>
                 </div>
                 <div className="features-list_one">
@@ -751,7 +751,7 @@ const Index = () => {
             <div className="row justify-content-center">
               <div className="col-xl-7">
                 <div className="section-title text-center mb-50 wow fadeInDown">
-                  <span className="sub-title">Contact</span>
+                  <span className="sub-title">Get In Touch</span>
                   <h2 className="darkblue-text">Talk to an Expert</h2>
                 </div>
               </div>

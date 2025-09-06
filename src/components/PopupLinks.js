@@ -1,6 +1,8 @@
 import React from "react";
 
-const textMessage = "Example text!";
+const textMessage = "Hello, I want to book a tour!";
+const whatsappLink =
+  "https://wa.me/996555551340?text=Hello%2C%20I%20want%20to%20book%20a%20tour!";
 
 function PopupLinks({ close }) {
   return (
@@ -22,9 +24,7 @@ function PopupLinks({ close }) {
               </div>
             </p>
             <ul className="popup-links">
-              <a
-                href={`https://wa.me/message/F7BUBQR4EQ6CB1?text=${textMessage}`}
-              >
+              <a href={whatsappLink}>
                 <li className="popup-link">
                   <i className="fab fa-whatsapp"></i>
                   WhatsApp

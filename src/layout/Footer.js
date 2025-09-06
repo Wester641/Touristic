@@ -23,7 +23,7 @@ const Footer = ({ bg, extraClass }) => {
                 </div>
                 <div className="info">
                   <span className="title">Location</span>
-                  <p>Baitik Baatyr Street 73, Bishkek, Kyrgyzstan</p>
+                  <p>Baitik Baatyr Street 73, Bishkek Kyrgyzstan</p>
                 </div>
               </div>
             </div>
@@ -143,10 +143,7 @@ const Footer = ({ bg, extraClass }) => {
               <div className="footer-widget footer-newsletter-widget mb-40 pl-lg-100 wow fadeInUp">
                 <h4 className="widget-title">Newsletter</h4>
                 <div className="footer-content">
-                  <p>
-                    Which of us ever undertake laborious physical exercise
-                    except obtain
-                  </p>
+                  <p>Subscribe to Almas Travel for the updates</p>
                   <form>
                     <div className="form_group">
                       <label>

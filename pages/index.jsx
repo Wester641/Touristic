@@ -408,7 +408,9 @@ const Index = () => {
               {/*====== Section Title ======*/}
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title ">Packages</span>
-                <h2 className="darkblue-text">Popular Kyrgyzstan Tours</h2>
+                <h2 className="darkblue-text">
+                  Must visit destinations to experience in Kyrgyzstan
+                </h2>
               </div>
             </div>
           </div>
@@ -504,7 +506,7 @@ const Index = () => {
               {/*=== Play Box ===*/}
               <div className="play-box text-lg-end text-center wow fadeInRight">
                 <a
-                  href="https://www.youtube.com/watch?v=i5CBuOXaKXo&list=RDi5CBuOXaKXo&start_radio=1v=i5CBuOXaKXo&list=RDi5CBuOXaKXo&start_radio=1"
+                  href="https://www.instagram.com/reel/DNRu70EI3Ya/?igsh=MWg2aTh0MTF6YXEzdQ%3D%3D"
                   className="video-popup"
                 >
                   <i className="fas fa-play" />
@@ -801,7 +803,7 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
-                    <p>Ayni 85, Bishkek, Kyrgyzstan</p>
+                    <p>Baitik Baatyr Street 73, Bishkek Kyrgyzstan</p>
                   </div>
                 </div>
               </div>

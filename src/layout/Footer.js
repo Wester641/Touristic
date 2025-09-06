@@ -23,7 +23,7 @@ const Footer = ({ bg, extraClass }) => {
                 </div>
                 <div className="info">
                   <span className="title">Location</span>
-                  <p>Ayni 85, Bishkek, Kyrgyzstan</p>
+                  <p>Baitik Baatyr Street 73, Bishkek, Kyrgyzstan</p>
                 </div>
               </div>
             </div>

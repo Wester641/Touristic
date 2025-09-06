@@ -16,7 +16,7 @@ const Header1 = () => {
       <div className="top-info">
         <span>
           <i className="far fa-map-marker-alt"></i>{" "}
-          <span>Ayni 85, Bishkek, Kyrgyzstan</span>
+          <span>Baitik Baatyr Street 73, Bishkek, Kyrgyzstan</span>
         </span>
         <span>
           <i className="fas fa-phone"></i> <span>+996 (555) 55 13 40</span>

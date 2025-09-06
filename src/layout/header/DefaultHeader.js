@@ -36,7 +36,7 @@ const DefaultHeader = () => {
                         </div>
                         <div className="info">
                           <span className="title">Office Address</span>
-                          <h5>Ayni 85, Bishkek, Kyrgyzstan</h5>
+                          <h5>Baitik Baatyr Street 73, Bishkek, Kyrgyzstan</h5>
                         </div>
                       </div>
                     </div>

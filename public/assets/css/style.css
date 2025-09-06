@@ -6121,6 +6121,8 @@ ul.slick-dots li.slick-active button {
   padding: 0 30px !important;
   color: #f8f9fa !important;
   justify-content: end;
+  position: relative;
+  bottom: 12px;
 }
 
 @media (max-width: 767px) {

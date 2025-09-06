@@ -13,24 +13,24 @@ const Header1 = () => {
       {close && <PopupLinks close={handleClose} />}
 
       {/*====== Header Navigation ======*/}
+      <div className="top-info">
+        <span>
+          <i className="far fa-map-marker-alt"></i>{" "}
+          <span>Ayni 85, Bishkek, Kyrgyzstan</span>
+        </span>
+        <span>
+          <i className="fas fa-phone"></i> <span>+996 (555) 55 13 40</span>
+        </span>
+        <span>
+          <i className="fas fa-envelope"></i>{" "}
+          <span>Almas.travels@hotmail.com</span>
+        </span>
+        <span>
+          <i className="fab fa-whatsapp"></i> <span>+996 (555) 55 13 40</span>
+        </span>
+      </div>
       <div className="header-navigation navigation-white">
         <div className="nav-overlay" />
-        <div className="top-info">
-          <span>
-            <i className="far fa-map-marker-alt"></i>{" "}
-            <span>Ayni 85, Bishkek, Kyrgyzstan</span>
-          </span>
-          <span>
-            <i className="fas fa-phone"></i> <span>+996 (555) 55 13 40</span>
-          </span>
-          <span>
-            <i className="fas fa-envelope"></i>{" "}
-            <span>Almas.travels@hotmail.com</span>
-          </span>
-          <span>
-            <i className="fab fa-whatsapp"></i> <span>+996 (555) 55 13 40</span>
-          </span>
-        </div>
         <div className="container-fluid ">
           <div className="primary-menu pt-15 pb-15">
             {/*====== Site Branding ======*/}

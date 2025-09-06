@@ -476,7 +476,7 @@ const Index = () => {
               {/*====== Section Title ======*/}
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title ">Packages</span>
-                <h2 className="darkblue-text">Popular Packages</h2>
+                <h2 className="darkblue-text">Popular Tours</h2>
               </div>
             </div>
           </div>
